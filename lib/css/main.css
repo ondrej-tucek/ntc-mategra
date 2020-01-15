@@ -385,6 +385,7 @@ li {
   overflow: hidden;
   -webkit-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
+  border-radius: 40px;
 }
 
 .o-vabnicka__item.active {
