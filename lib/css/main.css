@@ -133,21 +133,8 @@ li {
 .o-header__right {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.1);
-  position: relative;
   min-height: 100vh;
   padding: 14rem 10rem 10rem 10rem;
-}
-
-.o-header__logo {
-  width: 100%;
-  /* padding: 3rem 3rem 0 3rem; */
-  padding: 1rem 0 1rem 0;
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #940084;
-  z-index: 10;
-  color: white;
 }
 
 .o-header__shader {
@@ -157,7 +144,7 @@ li {
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgb(199,200,202);
 }
 
 .o-header__text {
@@ -205,8 +192,9 @@ li {
   color: white;
   font-size: 2rem;
   font-weight: bold;
-  padding: 3rem;
+  padding: 1rem 3rem 3rem 3rem;
   width: 450px;
+  margin-top: 6rem;
   height: 65%;
 }
 
@@ -293,23 +281,84 @@ li {
   left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   width: 100%;
-  padding: 1rem;
-  background-color: black;
 }
-
-.o-nav__link {
+.has-width-100p {
   width: 100%;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.o-nav__link {
+  font-size: 1.5rem;
   text-align: center;
   color: white;
   text-decoration: none;
-  padding: 1rem;
+  padding: 2rem;
+  background-color: rgb(44,124,157);
 }
 
 .o-nav__link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgb(204, 204, 204);
+}
+
+.o-nav__logo {
+  text-decoration: none;
+  padding: 1.5rem 0 1rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: #940084;
+  z-index: 10;
+  color: white;
+}
+
+.has-fixed-position {
+  position: fixed;
+  z-index: 10;
+}
+
+@media only screen and (min-width: 1600px) {
+  .o-nav__link {
+    width: 15.3%;
+  }
+
+  .o-nav__logo {
+    width: 450px;
+  }
+}
+
+
+@media only screen and (max-width: 1599px) {
+  .o-nav__link {
+    width: 14.5%;
+  }
+
+  .o-nav__logo {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 1279px) {
+  .o-nav__link {
+    width: 16.5%;
+  }
+
+  .o-nav__logo {
+    width: 250px;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .o-nav__link {
+    width: 15%;
+  }
+
+  .o-nav__logo {
+    width: 250px;
+  }
 }
 
 .o-vabnicka__vabnicka {
@@ -463,6 +512,8 @@ li {
   background-color: rgba(0, 0, 0, 0.95);
   color: white;
   padding: 0;
+  margin-top: 6rem;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -511,8 +562,8 @@ li {
 }
 
 .o-process__text h2 {
+  margin-top: 4rem;
   margin-bottom: 1rem;
-  margin-top: 2rem;
   line-height: 1.35;
   font-size: 1.85rem;
 }
