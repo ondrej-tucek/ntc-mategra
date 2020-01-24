@@ -183,15 +183,11 @@
 
 .o-vabnicka__title {
   text-align: center;
-  /* padding: 2rem 3rem; */
-  padding: 2rem 3rem 4rem 3rem;
   color: white;
   position: absolute;
-  bottom: 0;
+  top: 85%;
   left: 0;
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0000), to(#00000075));
-  background: linear-gradient(#0000, #00000075);
 }
 
 .o-vabnicka__desc {
