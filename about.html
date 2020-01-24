@@ -18,21 +18,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="lib/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="lib/css/bulma.min.css">
+    <link rel="stylesheet" href="lib/css/main.css">
 </head>
 
-<body>
-    <nav class="o-nav has-fixed-position">
-        <a class="o-nav__logo" href="index.html">MATEGRA</a>
-        <a class="o-nav__link" href="about.html">About</a>
-        <a class="o-nav__link" href="index.html">Group</a>
-        <a class="o-nav__link" href="index.html">Publications</a>
-        <a class="o-nav__link" href="index.html">Laboratory</a>
-        <a class="o-nav__link" href="index.html">News</a>
-    </nav>
-    <section class="block o-process">
+<body class="is-fullheight-without-menu">
+    <div class="columns zero-margin is-hidden-touch has-fixed-position">
+        <div class="column is-4-desktop is-3-fullhd has-bg-ntc has-text-centered vcenter">
+            <a href="index.html">
+                <span class="link-mategra is-size-2-desktop has-text-weight-bold">MATEGRA</span>
+            </a>
+        </div>
+        <div class="column is-8-desktop is-9-fullhd has-bg-reg zero-padding">
+            <div class="menu">
+                <a class="menu__item is-size-4 has-padding-32" href="about.html">About</a>
+                <a class="menu__item is-size-4 has-padding-32" href="group.html">Group</a>
+                <a class="menu__item is-size-4 has-padding-32" href="publications.html">Publications</a>
+                <a class="menu__item is-size-4 has-padding-32" href="laboratory.html">Laboratory</a>
+                <a class="menu__item is-size-4 has-padding-32" href="news.html">News</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns zero-margin is-hidden-desktop">
+        <div class="column is-3-tablet has-bg-ntc has-text-centered vcenter zero-padding">
+            <a href="index.html">
+                <span class="link-mategra is-size-3 has-text-weight-bold">MATEGRA</span>
+            </a>
+        </div>
+        <div class="column is-9-tablet has-bg-reg has-text-centered zero-padding">
+            <div class="menu">
+                <a class="menu__item is-size-5 has-padding-16" href="about.html">About</a>
+                <a class="menu__item is-size-5 has-padding-16" href="group.html">Group</a>
+                <a class="menu__item is-size-5 has-padding-16" href="publications.html">Publications</a>
+                <a class="menu__item is-size-5 has-padding-16" href="laboratory.html">Laboratory</a>
+                <a class="menu__item is-size-5 has-padding-16" href="news.html">News</a>
+            </div>
+        </div>
+    </div>
+
+    <div class=" o-process">
         <div id="process-01-title-de" class="o-process__item js-carousel">
             <div class="o-process__image-box">
-                <img class="o-process__image image" src="media/process/porezni_titan/01.jpg">
+                <img class="o-process__image image first-img" src="media/process/porezni_titan/01.jpg">
                 <img class="o-process__image image" src="media/process/porezni_titan/02.jpg">
                 <img class="o-process__image image" src="media/process/porezni_titan/03.jpg">
                 <img class="o-process__image image" src="media/process/porezni_titan/04.jpg">
@@ -107,7 +136,8 @@
                 stav.
             </div>
         </div>
-    </section>
+    </div>
+
     <script src="lib/js/custom.js" async defer type="text/javascript"></script>
 </body>
 
