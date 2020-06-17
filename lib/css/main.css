@@ -1,19 +1,133 @@
 
-.has-bg-lighter {
-  background-color: #f5f5ff;
-}
-
-.has-bg-light {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.has-bg-ntc {
+.has-background-ntc {
   background-color: #940084;
 }
 
-.has-bg-reg {
-  background-color: rgb(44,124,157);
+.has-background-ukr {
+  background-color: #2C7C9D;
 }
+
+.link__ntc, .link__ukr {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.link__ukr:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 3px #940084;
+}
+
+.link__ntc:hover {
+  text-decoration: none;
+  color: white;
+  /* text-shadow: -1px 0 #2C7C9D, 0 1px #2C7C9D, 1px 0 #2C7C9D, 0 -1px #2C7C9D; */
+  text-shadow: 0 0 5px #2C7C9D;
+}
+
+.link__ntc::before {
+  border-radius: 6px;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  /* https://www.cssmatic.com/box-shadow */
+  /* box-shadow: 5px 5px 10px 0px rgba(117,117,117,1); */
+  box-shadow: 0px 0px 10px 1px #2C7C9D;
+
+  /* Hidden by default. */
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.link__ukr::before {
+  border-radius: 6px;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  /* Create the box shadow at expanded size. */
+  /* box-shadow: 5px 5px 10px 0px rgba(117,117,117,1); */
+  box-shadow: 0px 0px 10px 0px #940084;
+
+  /* Hidden by default. */
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.link__ntc:hover::before, .link__ukr:hover::before {
+  /* Show the pseudo-element on hover. */
+  opacity: 1;
+}
+
+.logo-box {
+  padding: 1rem;
+  position: relative;
+  /* z-index: 500; */
+  display: inline-block;
+  background-color: #fff;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.logo-box::after {
+  content: "";
+  position: absolute;
+  /* z-index: -1; */
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.logo-box:hover {
+  border-radius: 6px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1, 1.1);
+}
+
+.logo-box:hover::after {
+    opacity: 1;
+}
+
+.events-container {
+  padding: 0.75rem;
+  height: 475px;
+  /* overflow-y: visible; */
+  /* overflow-y: scroll; */
+  overflow-x: hidden;
+  box-shadow: inset 0 15px 15px -5px #fff, inset 0 -15px 15px -5px #fff;
+}
+
+
+#scroll::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+	/* background-color: #F5F5F5; */
+}
+
+#scroll::-webkit-scrollbar
+{
+	width: 6px;
+	/* background-color: #F5F5F5; */
+}
+
+#scroll::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.5);
+	/* background-color: rgba(0,0,0,.3); */
+}
+
+
 
 .height-window {
   height: calc(100vh - 7.75rem - 6.25rem);
@@ -21,10 +135,6 @@
 
 .is-fullheight-without-menu {
   height: calc(100vh - 6.25rem);
-}
-
-.logo {
-  max-width: 200px;
 }
 
 .link-mategra {
