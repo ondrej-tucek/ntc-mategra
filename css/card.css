@@ -1,0 +1,122 @@
+
+.card-visit {
+  position: relative;
+  display: flex;
+  width: 28rem;
+  height: 15rem;
+  opacity: 1;
+}
+
+.card-visit:hover {
+
+}
+
+.card-visit:hover > .card-visit__title {
+/* animation: fadeInOutCardTitle 3s infinite; */
+/* transition: all 1s; */
+  opacity: 1;
+  /* transition: transform 1s; */
+  transform: translate(0, -10px);
+}
+
+.card-visit__title {
+  /* padding: 0 1rem 0 1rem; */
+  opacity: 0;
+  top: -1.2rem;
+  left: 0;
+  padding: 0 0.75rem 0 0.75rem;
+  position: absolute;
+  background-color: white;
+  -webkit-transition:all 0.3s ease-in-out;
+  -moz-transition:all 0.3s ease-in-out;
+  -o-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+}
+
+.card-visit__left-image {
+  width: 30%;
+  height: 100%;
+  background-color: lightcoral;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.card-visit__right {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-visit__research-info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  border-bottom-right-radius: 6px;
+}
+
+.research-info__stats {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.research-info__stats > div {
+  width: calc(100% /3);
+}
+
+.card-visit__avatar {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  top: 10%;
+  left: 20%;
+  background-color: lightskyblue;
+  border-radius: 6px;
+  z-index: 100;
+}
+
+.card-visit__avatar > img {
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-visit__contact{
+  position: absolute;
+  top: 10%;
+  left: 42%;
+  line-height: 1.8;
+}
+
+.orcid-gate__links {
+  width: 100%;
+}
+
+.orcid-link {
+  width: 50%;
+  padding: 0.75rem;
+  text-align: center;
+  float: left;
+  border-top: 1px solid lightgray;
+}
+
+.gate-link {
+  width: 50%;
+  padding: 0.75rem;
+  float: right;
+  text-align: center;
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+}
+
+.orcid-link:hover, .gate-link:hover {
+background-color: rgba(211, 211, 211, 0.2);
+}
+
+.logo--size {
+  height: 1.25rem;
+}
