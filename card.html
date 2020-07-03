@@ -1,71 +1,123 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mategra</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" />
+    <link href="css/brands.min.css" rel="stylesheet" />
+    <link href="css/solid.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <!-- <script defer src="js/fontawesome.all.js"></script> -->
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Mategra</title>
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="css/fontawesome.min.css" rel="stylesheet">
-  <link href="css/brands.min.css" rel="stylesheet">
-  <link href="css/solid.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/bulma.min.css" />
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/card.css" />
-  <!-- <script defer src="js/fontawesome.all.js"></script> -->
-</head>
+  <body>
+    <section class="hero is-fullheight has-background-light">
+      <div class="hero-body is-centered">
+        <div class="container">
+          <div class="box card-scientist px-0 py-0">
+            <div class="box card-scientist__title">New Research Technology</div>
+            <div class="card-scientist__avatar">
+              <!-- <img src="media/avatars/TK.jpg" class="" /> -->
+            </div>
+            <div id="address-hover" class="card-scientist__left-image"></div>
 
-<body>
-  <section class="hero is-fullheight has-background-light">
-    <div class="hero-body is-centered">
-      <div class="container">
-        <div class="box card-visit px-0 py-0">
-          <div class="box card-visit__title">New Research Technology</div>
-          <div class="card-visit__avatar">
-            <img src="media/avatars/TK.jpg" class="">
-          </div>
-          <div class="card-visit__left-image">
-
-          </div>
-          <div class="card-visit__contact">
-            <p class="has-text-weight-semibold">Ing. Name Surname PhD.</p>
-            <p><i class="fas fa-phone-alt fa-rotate-90"></i>
-              <span class="pl-1">+420 606 123 123</span>
-            </p>
-            <p><i class="fas fa-envelope"></i>
-              <span class="pl-1">name.surname(at)domain.com</span>
-            </p>
-          </div>
-          <div class="card-visit__research-info">
-            <div class="research-info__stats py-3">
-              <div class="px-3">
-                <p class="has-text-left is-uppercase has-text-weight-light is-size-7">Citations</p>
-                <p class="has-text-right has-text-weight-semibold is-size-4">158</p>
+            <div id="address" class="card-scientist__address--hide">
+              <div class="card-scientist__contact">
+                <p>Chemical Processes and Biomaterials</p>
+                <p>Veleslavinova 42</p>
+                <p>Pilsen</p>
               </div>
-              <div class="px-3">
-                <p class="pl-3 has-text-left is-uppercase has-text-weight-light is-size-7">Reads</p>
-                <p class="has-text-right has-text-weight-semibold is-size-4">2,1k</p>
-              </div>
-              <div class="px-3">
-                <p class="has-text-left is-uppercase has-text-weight-light is-size-7">Publications</p>
-                <p class="has-text-right has-text-weight-semibold is-size-4">42</p>
+              <div class="logo-uni">
+                <img src="media/logos/zcu.png" />
               </div>
             </div>
-            <div class="orcid-gate__links">
-              <a class="orcid-link" target="_blank" href="https://orcid.org/0000-0003-4838-4069">
-                <img src="media/logos/orcid.svg" class="logo--size">
-              </a>
-              <a class="gate-link" target="_blank" href="https://www.researchgate.net/profile/Tomas_Kovarik4">
-                <img src="media/logos/ResearchGate.svg" class="logo--size"></a>
+
+            <div class="card-scientist__contact">
+              <p class="has-text-weight-semibold">Ing. Name Surname PhD.</p>
+              <p>
+                <i class="fas fa-phone-alt fa-rotate-90"></i>
+                <span class="pl-1">+420 606 123 123</span>
+              </p>
+              <p>
+                <i class="fas fa-envelope"></i>
+                <span class="pl-1">name.surname(at)domain.com</span>
+              </p>
+            </div>
+            <div class="card-scientist__research-info">
+              <div class="research-info__stats py-3">
+                <div class="px-3">
+                  <p
+                    class="has-text-left is-uppercase has-text-weight-light is-size-7"
+                  >
+                    Citations
+                  </p>
+                  <p class="has-text-right has-text-weight-semibold is-size-4">
+                    158
+                  </p>
+                </div>
+                <div class="px-3">
+                  <p
+                    class="pl-3 has-text-left is-uppercase has-text-weight-light is-size-7"
+                  >
+                    Reads
+                  </p>
+                  <p class="has-text-right has-text-weight-semibold is-size-4">
+                    2,1k
+                  </p>
+                </div>
+                <div class="px-3">
+                  <p
+                    class="has-text-left is-uppercase has-text-weight-light is-size-7"
+                  >
+                    Publications
+                  </p>
+                  <p class="has-text-right has-text-weight-semibold is-size-4">
+                    42
+                  </p>
+                </div>
+              </div>
+              <div class="orcid-gate__links">
+                <a
+                  class="orcid-link"
+                  target="_blank"
+                  href="https://orcid.org/0000-0003-4838-4069"
+                >
+                  <img src="media/logos/orcid.svg" class="logo--size" />
+                </a>
+                <a
+                  class="gate-link"
+                  target="_blank"
+                  href="https://www.researchgate.net/profile/Tomas_Kovarik4"
+                >
+                  <img src="media/logos/ResearchGate.svg" class="logo--size"
+                /></a>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
-    </div>
-  </section>
+    </section>
+    <script>
+      document
+        .getElementById("address-hover")
+        .addEventListener("mouseover", function () {
+          let el = document.getElementById("address");
+          el.classList.remove("card-scientist__address--hide");
+          el.classList.add("card-scientist__address--show");
+        });
 
-</body>
-
+      document
+        .getElementById("address-hover")
+        .addEventListener("mouseout", function () {
+          let el = document.getElementById("address");
+          el.classList.remove("card-scientist__address--show");
+          el.classList.add("card-scientist__address--hide");
+        });
+    </script>
+  </body>
 </html>
