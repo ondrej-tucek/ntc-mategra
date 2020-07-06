@@ -20,11 +20,17 @@
       <div class="hero-body is-centered">
         <div class="container">
           <div class="box card-scientist px-0 py-0">
-            <div class="box card-scientist__title">New Research Technology</div>
+            <div class="card-scientist__title is-size-4">
+              New Research Technology
+            </div>
             <div class="card-scientist__avatar">
               <!-- <img src="media/avatars/TK.jpg" class="" /> -->
             </div>
-            <div id="address-hover" class="card-scientist__left-image"></div>
+            <div id="address-hover" class="card-scientist__left-image">
+              <a id="map-link" class="map-link--hide" href="#" target="_blank">
+                Map
+              </a>
+            </div>
 
             <div id="address" class="card-scientist__address--hide">
               <div class="card-scientist__contact">
@@ -106,17 +112,25 @@
       document
         .getElementById("address-hover")
         .addEventListener("mouseover", function () {
-          let el = document.getElementById("address");
-          el.classList.remove("card-scientist__address--hide");
-          el.classList.add("card-scientist__address--show");
+          let address = document.getElementById("address");
+          address.classList.remove("card-scientist__address--hide");
+          address.classList.add("card-scientist__address--show");
+
+          let mapLink = document.getElementById("map-link");
+          mapLink.classList.remove("map-link--hide");
+          mapLink.classList.add("map-link--show");
         });
 
       document
         .getElementById("address-hover")
         .addEventListener("mouseout", function () {
-          let el = document.getElementById("address");
-          el.classList.remove("card-scientist__address--show");
-          el.classList.add("card-scientist__address--hide");
+          let address = document.getElementById("address");
+          address.classList.remove("card-scientist__address--show");
+          address.classList.add("card-scientist__address--hide");
+
+          let mapLink = document.getElementById("map-link");
+          mapLink.classList.remove("map-link--show");
+          mapLink.classList.add("map-link--hide");
         });
     </script>
   </body>
