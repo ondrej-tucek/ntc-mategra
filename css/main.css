@@ -1,6 +1,9 @@
 /* ntc-color: #940084; */
 /* ukr-color: #2c7c9d; */
 
+li {
+  list-style: disc;
+}
 
 .link {
   color: black;
