@@ -12,18 +12,18 @@ li {
   transition: background 500ms ease;
   background-size: 2px;
   background-size: auto 175%;
-
 }
 
 .ntc_link {
-  background-image: linear-gradient( white 50%, #940084 50%);
+  background-image: linear-gradient(white 50%, #940084 50%);
 }
 
 .ukr_link {
-  background-image: linear-gradient( white 50%, #2c7c9d 50%);
+  background-image: linear-gradient(white 50%, #2c7c9d 50%);
 }
 
-.ntc_link:hover, .ukr_link:hover {
+.ntc_link:hover,
+.ukr_link:hover {
   background-position-y: 100%;
   color: #fff;
 }
@@ -218,4 +218,19 @@ li {
 
 .pdf {
   color: red;
+}
+
+.content {
+  font-style: italic;
+}
+
+.content div:last-child {
+  font-style: normal;
+}
+
+.image--resize {
+  width: 75%;
+  display: block;
+  display: block;
+  margin: 0 auto;
 }
