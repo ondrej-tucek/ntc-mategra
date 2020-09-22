@@ -234,3 +234,9 @@ li {
   display: block;
   margin: 0 auto;
 }
+
+.is-size-5-desktop,
+.is-size-4-fullhd,
+.pt-4 {
+  text-align: justify;
+}
