@@ -147,7 +147,7 @@ li {
   }
 
   .slider {
-    height: calc(100vh - 20.5rem);
+    height: calc(100vh - 15.25rem);
   }
 }
 
@@ -158,7 +158,7 @@ li {
   }
 
   .slider {
-    height: calc(100vh - 21rem);
+    height: calc(100vh - 15.25rem);
   }
 }
 
@@ -169,7 +169,7 @@ li {
   }
 
   .slider {
-    height: calc(100vh - 21rem);
+    height: calc(100vh - 15.25rem);
   }
 }
 
@@ -239,4 +239,13 @@ li {
 .is-size-4-fullhd,
 .pt-4 {
   text-align: justify;
+}
+
+.project-info {
+  position: absolute;
+  z-index: 999;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background: rgba(0,0,0,0.5);
+  color: white;
 }

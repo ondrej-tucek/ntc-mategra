@@ -1,5 +1,6 @@
 .slider-wrapper {
   position: relative;
+  border-radius: 6px;
 }
 
 .slider-text > p {
@@ -7,14 +8,15 @@
   /* width: 300px; */
   color: white;
   padding: 1rem;
-  background: rgba(179, 178, 178, 0.57);
+  /* background: rgba(179, 178, 178, 0.57); */
+  background: rgba(0,0,0,0.5);
   box-sizing: border-box;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   animation: fadeInOutText 20s infinite;
   opacity: 0;
   right: 0;
-  bottom: 20px;
+  bottom: 40px;
 }
 
 .slider-text > p:nth-child(1) {
