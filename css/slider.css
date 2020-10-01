@@ -16,7 +16,7 @@
   animation: fadeInOutText 20s infinite;
   opacity: 0;
   right: 0;
-  bottom: 40px;
+  bottom: 45px;
 }
 
 .slider-text > p:nth-child(1) {
