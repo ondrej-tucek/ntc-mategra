@@ -1,0 +1,22 @@
+{
+	"name": "ntc-mategra",
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"deploy": "gh-pages -d build",
+		"dev": "set NODE_ENV=development && svelte-kit dev",
+		"start": "svelte-kit start",
+		"build": "set NODE_ENV=production && svelte-kit build",
+		"preview": "svelte-kit preview",
+		"rebuild": "rm -rf build && svelte-kit build",
+		"reinstall": "rm -rf node_modules && npm i",
+		"pkg:info": "ncu && npm outdated",
+		"pkg:up": "ncu -u && npm i && npm up"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "next",
+		"@sveltejs/kit": "next",
+		"gh-pages": "^3.1.0",
+		"svelte": "^3.38.2"
+	}
+}
