@@ -55,6 +55,7 @@
   }
 
   .content {
+    position: relative;
     scroll-behavior: smooth;
     overflow-y: auto;
     overflow-x: hidden;
