@@ -5,6 +5,7 @@
 
   --clr-ntc: hsl(306, 100%, 29%);
   --clr-ukr: hsl(198, 56%, 39%);
+  --clr-bg-image: hsl(0, 0%, 83%);
 
   --clr-text: hsl(0, 0%, 21%);
   color: var(--clr-text);
@@ -113,27 +114,17 @@ h2 {
 
 /* IMAGE */
 
-.image img {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .image {
   display: block;
   position: relative;
   margin: 0 auto;
   text-align: center;
+  line-height: 50vh;
+  background-color: var(--clr-bg-image);
 }
 
 .image--resize {
   width: 55%;
-}
-
-figure {
-  margin: 0;
-  padding: 0;
 }
 
 /* UTILS */

@@ -46,13 +46,12 @@ Highlights:
   </li>
 </ul>
 <div class="pb-4">
-  <figure class="image image--resize">
-    <img
-      src={"/images/2020-surface-science-abstract.jpg"}
-      alt="Abstract"
-      loading="lazy"
-    />
-  </figure>
+  <img
+    class="image image--resize"
+    src={"/images/2020-surface-science-abstract.jpg"}
+    alt="Abstract"
+    loading="lazy"
+  />
 </div>
 <div>
   For more information, see

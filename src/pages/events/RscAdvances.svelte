@@ -32,13 +32,12 @@ represents the research concept of the joint project NTC and UKR:
   structure, shape, size and compositions of sol–gel derived bioactive glasses.
 </div>
 <div class="pb-4">
-  <figure class="image image--resize">
-    <img
-      src={"/images/2020-rsc-advances-abstract.jpg"}
-      alt="Abstract"
-      loading="lazy"
-    />
-  </figure>
+  <img
+    class="image image--resize"
+    src={"/images/2020-rsc-advances-abstract.jpg"}
+    alt="Abstract"
+    loading="lazy"
+  />
 </div>
 <div>
   For more information, see
