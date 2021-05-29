@@ -12,10 +12,11 @@
   the <a href="https://www.eors2020.org/" target="_blank">EORS</a> annual meeting
   2020, which was held last September in Izmir.
 </div>
-<div>
-  <figure class="image">
-    <img src={"/images/2020_awards_for_TS.jpg"} alt="Awards" loading="lazy" />
-  </figure>
-</div>
+<img
+  class="image"
+  src={"/images/2020_awards_for_TS.jpg"}
+  alt="Awards"
+  loading="lazy"
+/>
 
 <style></style>

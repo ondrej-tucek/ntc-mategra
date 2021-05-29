@@ -46,7 +46,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    background-color: hsl(0, 0%, 83%);
+    background-color: var(--clr-bg-image);
   }
 
   .image::before {

@@ -33,7 +33,6 @@ h4,
 p,
 ul[class],
 ol[class],
-figure,
 blockquote,
 dl,
 dd,
@@ -47,4 +46,9 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
 }

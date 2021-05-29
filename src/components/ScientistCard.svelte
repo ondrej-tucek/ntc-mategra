@@ -81,6 +81,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    background-color: var(--clr-bg-image);
   }
 
   .card__bio {
@@ -127,6 +128,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    background-color: var(--clr-bg-image);
   }
 
   .scientist__contact {

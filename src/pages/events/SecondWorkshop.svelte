@@ -37,13 +37,12 @@
 <div class="pb-4">Annual meeting group members at 2nd Mategra Workshop</div>
 
 <div class="pb-4">
-  <figure class="image image--resize">
-    <img
-      src={"/images/2020-MATEGRA-Workshop-group.jpg"}
-      alt="Second Workshop"
-      loading="lazy"
-    />
-  </figure>
+  <img
+    class="image image--resize"
+    src={"/images/2020-MATEGRA-Workshop-group.jpg"}
+    alt="Second Workshop"
+    loading="lazy"
+  />
 </div>
 
 <div class="pb-4">
