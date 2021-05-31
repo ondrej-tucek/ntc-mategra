@@ -1,7 +1,7 @@
 ## Mategra
 
 * source codes of project Mategra
-* made by SveleKit
+* made by SvelteKit
 
 
 ### Install & Update
