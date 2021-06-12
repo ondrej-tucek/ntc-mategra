@@ -26,5 +26,5 @@ npm run preview
 ### Deploy to gh-pages
 ```bash
 npm run build:gh
-npm run deploy
+npm run deploy:gh
 ```
