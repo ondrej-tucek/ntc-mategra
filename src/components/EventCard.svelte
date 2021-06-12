@@ -58,6 +58,10 @@
     padding-bottom: 12px;
   }
 
+  .card-footer {
+    text-align: right;
+  }
+
   .card-header-text {
     color: var(--clr-text);
     font-weight: 600;
