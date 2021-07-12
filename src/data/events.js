@@ -5,7 +5,7 @@ export let events = [
     body:
       'Research article has been published at <span class="is-uppercase">Elsevier</span>',
     footer: "1. 7. 2021",
-    route_to: "/events/sai-porous-micro-structured-titanuim",
+    route_to: "/events/sai-porous-micro-structured-titanium",
     body_text: "is-italic",
   },
   {
@@ -15,6 +15,14 @@ export let events = [
       'Research article has been published at <span class="is-uppercase">btm</span>',
     footer: "26. 6. 2021",
     route_to: "/events/btm-implant-bone-interface",
+    body_text: "is-italic",
+  },
+  {
+    id: 6,
+    header: "MATEGRA seminar",
+    body: "Student online seminar Porous glasses at the UWB in Pilsen",
+    footer: "27. 4. 2021",
+    route_to: "/events/online-seminar",
     body_text: "is-italic",
   },
   {
@@ -59,5 +67,5 @@ export let events = [
     footer: "21. 3. 2019",
     route_to: "/events/first-workshop",
     body_text: "is-italic",
-  },
+  }
 ];
