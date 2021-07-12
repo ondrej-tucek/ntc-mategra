@@ -9,10 +9,9 @@
 </script>
 
 The article
-<div class="py-5 px-5 is-centered is-italic has-text-weight-semibold">
-  Porous micro/nano structured oxidic titanium surface decorated with
-  silicon monoxide
-</div>
+<h2 class="article-title">Porous micro/nano structured oxidic titanium surface decorated
+  with silicon monoxide
+</h2>
 represents the research concept of the joint project NTC and UKR:
 <div class="py-5 px-5 is-centered is-italic">
   Advanced porous biomaterials functionalized with stem cells to improve the

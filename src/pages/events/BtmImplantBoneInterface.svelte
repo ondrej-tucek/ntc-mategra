@@ -9,10 +9,10 @@
 </script>
 
 The article
-<div class="py-5 px-5 is-centered is-italic has-text-weight-semibold">
-  Implant-bone-interface: reviewing the impact of titanium surface modifications
+<h2 class="article-title">
+  Implant bone interface: reviewing the impact of titanium surface modifications
   on osteogenic processes in vitro and in vivo
-</div>
+</h2>
 represents the research concept of the joint project NTC and UKR:
 <div class="py-5 px-5 is-centered is-italic">
   Advanced porous biomaterials functionalized with stem cells to improve the

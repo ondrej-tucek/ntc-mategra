@@ -9,13 +9,12 @@
 </script>
 
 The article
-<div class="py-5 px-5 is-centered is-italic has-text-weight-semibold">
+<h2 class="article-title">
   Corrosion behavior of titanium silicide surface with hydrogen peroxide:
-  Formation of sub-μm TiO<sub>x</sub> - based spheres, nanocomposite TiO<sub
-    >x</sub
-  >
-  / SiO<sub>x</sub> phases, and mesoporous TiO<sub>x</sub> / SiO<sub>x</sub>
-  network
+</h2>
+<div class="article-subtitle">
+  Formation of sub-μm TiO<sub>x</sub> - based spheres, nanocomposite TiO<sub>x</sub> / SiO<sub>x</sub>
+  phases, and mesoporous TiO<sub>x</sub> / SiO<sub>x</sub> network
 </div>
 represents the research concept of the joint project NTC and UKR:
 <div class="py-5 px-5 is-centered is-italic">

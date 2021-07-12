@@ -10,11 +10,11 @@
 
 <div class="pb-4">
   On April 27, 2021, a one-day student online seminar
-  <div class="py-5 px-5 is-centered is-italic has-text-weight-semibold">
+  <h2 class="article-title">
     Porous glasses: a promising biomaterial
-    <div>
-      Chemical-physical properties and cells viability
-    </div>
+  </h2>
+  <div class="article-subtitle">
+    Chemical-physical properties and cells viability
   </div>
   took place at the  UWB / NTC, which was implemented within the project No. 201 MATEGRA:
   <div class="py-5 px-5 is-centered is-italic">
