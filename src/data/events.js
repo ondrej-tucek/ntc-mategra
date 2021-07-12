@@ -1,9 +1,18 @@
 export let events = [
   {
+    id: 8,
+    header: "Surfaces and Interfaces",
+    body:
+      'Research article has been published at <span class="is-uppercase">Elsevier</span>',
+    footer: "1. 7. 2021",
+    route_to: "/events/sai-porous-micro-structured-titanuim",
+    body_text: "is-italic",
+  },
+  {
     id: 7,
     header: "Bioengineering & Translational Medicine",
     body:
-      'Research article has been published at <span class="is-uppercase">BTM</span>',
+      'Research article has been published at <span class="is-uppercase">btm</span>',
     footer: "26. 6. 2021",
     route_to: "/events/btm-implant-bone-interface",
     body_text: "is-italic",
@@ -13,14 +22,14 @@ export let events = [
     header: "Awards for Theresia Stitch (UKR)",
     body: "Congratulations!",
     footer: "August 2020",
-    route_to: "/events/awards_for_theresia-stitch",
+    route_to: "/events/awards-for-theresia-stitch",
     body_text: "is-centered is-uppercase",
   },
   {
     id: 4,
     header: "Royal Society of Chemistry",
     body:
-      'Research article has been published at <span class="is-uppercase">RSC</span>',
+      'Research article has been published at <span class="is-uppercase">rsc</span>',
     footer: "2. 9. 2020",
     route_to: "/events/rsc-advances",
     body_text: "is-italic",
