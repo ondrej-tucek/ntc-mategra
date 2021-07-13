@@ -19,8 +19,8 @@ export let events = [
   },
   {
     id: 6,
-    header: "MATEGRA seminar",
-    body: "Student online seminar Porous glasses at the UWB in Pilsen",
+    header: "3<sup>rd</sup> MATEGRA online seminar",
+    body: "Advanced porous biomaterials functionalized with stem cells for enhanced implant osseointegration at the UWB in Pilsen",
     footer: "27. 4. 2021",
     route_to: "/events/online-seminar",
     body_text: "is-italic",

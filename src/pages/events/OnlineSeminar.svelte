@@ -9,14 +9,8 @@
 </script>
 
 <div class="pb-4">
-  On April 27, 2021, a one-day student online seminar
-  <h2 class="article-title">
-    Porous glasses: a promising biomaterial
-  </h2>
-  <div class="article-subtitle">
-    Chemical-physical properties and cells viability
-  </div>
-  took place at the  UWB / NTC, which was implemented within the project No. 201 MATEGRA:
+  On April 27, 2021, a one-day student online seminar took place at the UWB / NTC, which
+  was implemented within the project No. 201 MATEGRA:
   <div class="py-5 px-5 is-centered is-italic">
     Advanced porous biomaterials functionalized with stem cells to improve the
     osseointegration of implants.
@@ -32,8 +26,8 @@
 <div class="pb-4">
   <img
     class="image image--resize"
-    src={"/images/2021-online-seminar-1.jpg"}
-    alt="Second Workshop"
+    src={"/images/2021-UWB-online-seminar-1.jpg"}
+    alt="UWB online seminar - Porous biomaterials"
     loading="lazy"
   />
 </div>
@@ -45,8 +39,8 @@
 <div>
   <img
     class="image image--resize"
-    src={"/images/2021-online-seminar-2.jpg"}
-    alt="Second Workshop"
+    src={"/images/2021-UWB-online-seminar-2.jpg"}
+    alt="UWB online seminar - Porous glasses"
     loading="lazy"
   />
 </div>
