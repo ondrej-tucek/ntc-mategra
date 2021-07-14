@@ -1,11 +1,20 @@
 export let events = [
   {
-    id: 8,
+    id: 9,
     header: "Surfaces and Interfaces",
     body:
       'Research article has been published at <span class="is-uppercase">Elsevier</span>',
     footer: "1. 7. 2021",
     route_to: "/events/sai-porous-micro-structured-titanium",
+    body_text: "is-italic",
+  },
+  {
+    id: 8,
+    header: "Materials Chemistry and Physics",
+    body:
+      'Research article has been published at <span class="is-uppercase">Elsevier</span>',
+    footer: "30. 6. 2021",
+    route_to: "/events/mcp-biomimetic-calcium-deposition",
     body_text: "is-italic",
   },
   {

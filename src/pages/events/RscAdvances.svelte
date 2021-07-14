@@ -43,8 +43,8 @@ represents the research concept of the joint project NTC and UKR:
   For more information, see
   <a
     href="https://pubs.rsc.org/en/content/articlehtml/2020/ra/d0ra04287k"
-    target="_blank">article <Icon i={"ex_link"} /></a
-  >
+    target="_blank">article <Icon i={"ex_link"} />
+  </a>
 </div>
 
 <style>

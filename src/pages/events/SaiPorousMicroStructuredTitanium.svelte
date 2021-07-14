@@ -5,7 +5,7 @@
   import { events } from "../../data/events.js";
   import { get_id } from "../../js/utils.js";
 
-  onMount(() => ($route_to = get_id(events, 8).route_to));
+  onMount(() => ($route_to = get_id(events, 9).route_to));
 </script>
 
 The article
@@ -41,8 +41,8 @@ represents the research concept of the joint project NTC and UKR:
   For more information, see
   <a
     href="https://www.sciencedirect.com/science/article/pii/S2468023021003813?via%3Dihub"
-    target="_blank">article <Icon i={"ex_link"} /></a
-  >
+    target="_blank">article <Icon i={"ex_link"} />
+  </a>
 </div>
 
 <style>

@@ -42,8 +42,8 @@ represents the research concept of the joint project NTC and UKR:
   For more information, see
   <a
     href="https://aiche.onlinelibrary.wiley.com/doi/10.1002/btm2.10239"
-    target="_blank">article <Icon i={"ex_link"} /></a
-  >
+    target="_blank">article <Icon i={"ex_link"} />
+  </a>
 </div>
 
 <style>

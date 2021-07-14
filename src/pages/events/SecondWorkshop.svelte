@@ -54,8 +54,9 @@
 <div class="pb-4">
   For more information, see:
   <a href="/pdfs/EVALUATION RESULTS_22.11.2019_en.pdf" target="_blank"
-    >Evaluation results <Icon i={"pdf"} /></a
-  > of the MATEGRA project workshop.
+    >Evaluation results <Icon i={"pdf"} />
+  </a>
+  of the MATEGRA project workshop.
 </div>
 
 <style>

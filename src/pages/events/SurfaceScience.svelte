@@ -56,8 +56,8 @@ Highlights:
   For more information, see
   <a
     href="https://www.sciencedirect.com/science/article/abs/pii/S0169433220318900?via%3Dihub"
-    target="_blank">article <Icon i={"ex_link"} /></a
-  >
+    target="_blank">article <Icon i={"ex_link"} />
+  </a>
 </div>
 
 <style>
