@@ -36,10 +36,10 @@ export let events = [
   },
   {
     id: 5,
-    header: "Awards for Theresia Stitch (UKR)",
+    header: "Awards for Theresia Stich (UKR)",
     body: "Congratulations!",
     footer: "August 2020",
-    route_to: "/events/awards-for-theresia-stitch",
+    route_to: "/events/awards-for-theresia-stich",
     body_text: "is-centered is-uppercase",
   },
   {
