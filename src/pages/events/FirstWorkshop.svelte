@@ -12,8 +12,7 @@
   On March 21, 2019, a one-day student seminar "BIOMATERIALS" took place at the
   UWB / NTC, which was implemented within the project No. 201 MATEGRA:
   <div class="py-5 px-5 is-centered is-italic">
-    Advanced porous biomaterials functionalized with stem cells to improve the
-    osseointegration of implants.
+    Advanced porous biomaterials functionalized with stem cells for enhanced implant osseointegration.
   </div>
   This is a cross-border cooperation program Czech Republic - Free State of Bavaria
   - EWO goal 2014 - 2020. Our project develops cooperation between NTC (New Technologies

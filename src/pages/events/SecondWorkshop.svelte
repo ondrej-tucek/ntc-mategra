@@ -12,8 +12,7 @@
   On November 22, 2019, the 2<sup>nd</sup> MATEGRA workshop took place at the
   UKR in Regensburg, which was implemented within the project No. 201 MATEGRA:
   <div class="py-5 px-5 is-centered is-italic">
-    Advanced porous biomaterials functionalized with stem cells to improve the
-    osseointegration of implants.
+    Advanced porous biomaterials functionalized with stem cells for enhanced implant osseointegrations.
   </div>
   This is a cross-border cooperation program Czech Republic - Free State of Bavaria
   - EWO goal 2014 - 2020. Our project develops cooperation between NTC (New Technologies

@@ -17,8 +17,7 @@ The article
 </div>
 represents the research concept of the joint project NTC and UKR:
 <div class="py-5 px-5 is-centered is-italic">
-  Advanced porous biomaterials functionalized with stem cells to improve the
-  osseointegration of implants (MATEGRA).
+  Advanced porous biomaterials functionalized with stem cells for enhanced implant osseointegration.
 </div>
 <div class="pb-4 is-justify">
   In this study, NaOH–CaCl<sub>2</sub> heat water treatment of titanium is revisited and used to modify
