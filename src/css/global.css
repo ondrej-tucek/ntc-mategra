@@ -20,6 +20,13 @@
 
 body {
   font-size: var(--fs-5);
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    overflow: auto;
+  }
 }
 
 h1 {
@@ -137,8 +144,16 @@ h2 {
   margin: 0 auto;
   width: 100%;
   text-align: center;
-  line-height: 50vh;
   background-color: var(--clr-bg-image);
+}
+
+.image-border {
+  border: 0.2em solid;
+  border-image-slice: 1;
+  /* border-width: 0.3em; */
+  border-radius: 6px;
+  outline-offset: 15px;
+  border-image-source: linear-gradient(to left, var(--clr-ukr), var(--clr-ntc));
 }
 
 .image--resize {

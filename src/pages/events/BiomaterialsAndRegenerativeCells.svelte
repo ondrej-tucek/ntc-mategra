@@ -22,9 +22,9 @@
   - Research Center) and UKR (University Clinic in Regensburg).
 </div>
 
-<div class="pb-6">
+<div class="pb-5">
   <img
-    class="image image--resize"
+    class="image image--resize image-border"
     src={"/images/2021-virtual-symposium-poster.jpg"}
     alt="Virtual symposium poster"
     loading="lazy"
@@ -32,7 +32,7 @@
 </div>
 <div class="pb-4">
   <img
-    class="image image--resize"
+    class="image image--resize image-border"
     src={"/images/2021-virtual-symposium-poster-programme.jpg"}
     alt="Virtual symposium poster programme"
     loading="lazy"
