@@ -16,7 +16,7 @@
   .events {
     grid-area: events;
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
     /* background: lightskyblue; */
   }
 
@@ -24,7 +24,7 @@
     scroll-behavior: smooth;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 0.75rem 1rem 1rem 0.75rem;
+    padding: 0.75rem 1.25rem 0.75rem 1.25rem;
     width: 100%;
     height: calc(100vh - 8vh - 8rem - 35vh);
   }
@@ -46,7 +46,7 @@
 
   @media only screen and (min-width: 1200px) {
     .event-items {
-      height: calc(100vh - 8vh - 9rem - 34vh);
+      height: calc(100vh - 8vh - 9rem - 32vh);
     }
 
     /* .event-title {

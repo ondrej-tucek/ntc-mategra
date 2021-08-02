@@ -39,6 +39,16 @@
     z-index: 999;
   }
 
+  .card-link:first-child {
+    border-radius: 6px;
+    border: 2px solid hsl(306, 100%, 29%);
+  }
+
+
+  .card-link:first-child .card:hover {
+    box-shadow: 0 0px 10px hsl(306, 100%, 29%);
+  }
+
   .card-link {
     width: 100%;
     display: inline-block;
