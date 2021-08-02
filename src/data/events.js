@@ -1,5 +1,14 @@
 export let events = [
   {
+    id: 10,
+    header: "Virtual Symposium",
+    body:
+      '<div>Advancing the Interface:</div><div>Biomaterials and regenerative cells</div>',
+    footer: "<span style='font-weight: 600;'>Upcoming event: 11. 11. 2021</span>",
+    route_to: "/events/biomaterials-and-regenerative-cells",
+    body_text: "is-italic is-centered",
+  },
+  {
     id: 9,
     header: "Surfaces and Interfaces",
     body:
