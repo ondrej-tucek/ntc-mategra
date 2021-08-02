@@ -192,8 +192,4 @@
     text-align: center;
     position: absolute;
   }
-
-  .logo-uni > img {
-    height: 5rem;
-  }
 </style>

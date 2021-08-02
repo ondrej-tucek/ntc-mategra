@@ -16,7 +16,7 @@
 <style>
   .logos {
     grid-area: logos;
-    padding: 0.75rem;
+    padding: 1.3rem;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -31,7 +31,7 @@
     display: block;
     height: 100%;
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.75rem;
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
