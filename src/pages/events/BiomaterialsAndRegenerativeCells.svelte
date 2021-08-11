@@ -45,6 +45,12 @@
     >poster <Icon i={"pdf"} />
   </a>
 </div>
+<div>
+  You can find the registration and abstract submission form
+  <a href="/docs/Virtual_symposium_guidelines_and_forms.docx" target="_blank"
+    >here <Icon i={"docx"} />
+  </a>
+</div>
 
 <style>
 </style>

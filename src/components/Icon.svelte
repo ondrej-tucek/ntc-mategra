@@ -1,4 +1,5 @@
 <script>
+  import i_docx from "../static/icons/docx.svg?raw";
   import i_pdf from "../static/icons/pdf.svg?raw";
   import i_ex_link from "../static/icons/external-link.svg?raw";
   import i_phone from "../static/icons/phone.svg?raw";
@@ -9,6 +10,9 @@
 
   const getIcon = (i) => {
     switch (i) {
+      case "docx":
+        i_obj = { icon: i_docx, class: "icon-docx" };
+        break;
       case "pdf":
         i_obj = { icon: i_pdf, class: "icon-pdf" };
         break;
@@ -41,6 +45,12 @@
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
+  }
+
+  .icon-docx {
+    width: 24px;
+    /* height: 16px; */
+    vertical-align: -0.125em;
   }
 
   .icon-pdf {
