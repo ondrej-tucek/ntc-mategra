@@ -39,14 +39,31 @@
     z-index: 999;
   }
 
-  .card-link:first-child {
+  .card-link:first-child .card {
     border-radius: 6px;
-    border: 2px solid hsl(306, 100%, 29%);
+    /* border: 2px solid var(--clr-ntc); */
+    background-color: var(--clr-ntc-light);
+    position: relative;
   }
 
+  .card-link:first-child .card:after {
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: translateX(100%);
+    /* CSS Gradient - complete browser support from http://www.colorzilla.com/gradient-editor/ */
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%);
+    animation: card-slide 3s infinite 3s;
+  }
+
+  @keyframes card-slide {
+    0% {transform: skewX(-5deg) translateX(-100%);}
+    100% {transform: skewX(-5deg) translateX(100%);}
+  }
 
   .card-link:first-child .card:hover {
-    box-shadow: 0 0px 10px hsl(306, 100%, 29%);
+    box-shadow: 0 0px 10px var(--clr-ntc);
   }
 
   .card-link {
