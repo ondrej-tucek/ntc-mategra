@@ -42,8 +42,12 @@
   .card-link:first-child .card {
     border-radius: 6px;
     /* border: 2px solid var(--clr-ntc); */
-    background-color: var(--clr-ntc-light);
+    background-color: var(--clr-ntc);
     position: relative;
+  }
+
+  .card-link:first-child .card  > * > * {
+    color: white;
   }
 
   .card-link:first-child .card:after {
