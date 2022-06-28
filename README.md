@@ -13,10 +13,12 @@ npm run pkg:up    # update packages
 ```
 
 ### Dev
-```bash
-npm run dev
-[http://localhost:3000/](http://localhost:3000/)
-```
+<pre>
+ <code>
+  npm run dev
+  <a href="http://localhost:3000">localhost:3000</a>
+ </code>
+</pre>
 
 ### Pre-Deploy
 ```bash
