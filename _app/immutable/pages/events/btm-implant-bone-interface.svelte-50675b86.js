@@ -1,0 +1,23 @@
+import{S as R,i as L,s as J,t as f,e as p,k as q,w as O,h as u,c as d,a as y,d as t,m as T,x as P,b as o,U as ee,g as r,G as v,y as Q,E as W,q as X,o as Y,B as Z,L as te,v as ie,M as ne}from"../../chunks/index-60a8efbe.js";import{I as ae}from"../../chunks/Icon-55270904.js";import{r as N}from"../../chunks/route-5b391e3b.js";import{e as se}from"../../chunks/events-f8e32cbd.js";import{g as re}from"../../chunks/utils-01dc11e0.js";/* empty css                                                      */import"../../chunks/index-e08d3e32.js";function oe(I){let i,s,n,c,h,D,x,_,V,A,b,z,E,g,l,S,j,w,B,m,C,$,k;return $=new ae({props:{i:"ex_link"}}),{c(){i=f(`The article
+`),s=p("h2"),n=f(`Implant bone interface: reviewing the impact of titanium surface modifications
+  on osteogenic processes in vitro and in vivo`),c=f(`
+represents the research concept of the joint project NTC and UKR:
+`),h=p("div"),D=f("Advanced porous biomaterials functionalized with stem cells for enhanced implant osseointegration."),x=q(),_=p("div"),V=f(`This review starts with an introduction to the basics of cell-material interactions
+  as well as common surface modification techniques. Afterwards, recent research on
+  the impact of osteogenic processes in vitro and vivo provoked by various surface
+  modifications is reviewed and discussed, in order to give an update on currently
+  applied and developing implant modification techniques for enhancing osteointegration.`),A=q(),b=p("div"),z=f(`A key factor for a successful stable long-term integration is the initial cellular
+  response to the implant material. Hence, cell-material interactions, which are
+  dependent on the surface parameters, need to be considered in the implant design.`),E=q(),g=p("div"),l=p("img"),j=q(),w=p("div"),B=f(`For more information, see
+  `),m=p("a"),C=f("article "),O($.$$.fragment),this.h()},l(e){i=u(e,`The article
+`),s=d(e,"H2",{class:!0});var a=y(s);n=u(a,`Implant bone interface: reviewing the impact of titanium surface modifications
+  on osteogenic processes in vitro and in vivo`),a.forEach(t),c=u(e,`
+represents the research concept of the joint project NTC and UKR:
+`),h=d(e,"DIV",{class:!0});var U=y(h);D=u(U,"Advanced porous biomaterials functionalized with stem cells for enhanced implant osseointegration."),U.forEach(t),x=T(e),_=d(e,"DIV",{class:!0});var F=y(_);V=u(F,`This review starts with an introduction to the basics of cell-material interactions
+  as well as common surface modification techniques. Afterwards, recent research on
+  the impact of osteogenic processes in vitro and vivo provoked by various surface
+  modifications is reviewed and discussed, in order to give an update on currently
+  applied and developing implant modification techniques for enhancing osteointegration.`),F.forEach(t),A=T(e),b=d(e,"DIV",{class:!0});var G=y(b);z=u(G,`A key factor for a successful stable long-term integration is the initial cellular
+  response to the implant material. Hence, cell-material interactions, which are
+  dependent on the surface parameters, need to be considered in the implant design.`),G.forEach(t),E=T(e),g=d(e,"DIV",{class:!0});var K=y(g);l=d(K,"IMG",{class:!0,src:!0,alt:!0,loading:!0}),K.forEach(t),j=T(e),w=d(e,"DIV",{});var H=y(w);B=u(H,`For more information, see
+  `),m=d(H,"A",{href:!0,target:!0});var M=y(m);C=u(M,"article "),P($.$$.fragment,M),M.forEach(t),H.forEach(t),this.h()},h(){o(s,"class","article-title"),o(h,"class","py-5 px-5 is-centered is-italic"),o(_,"class","pb-4 is-justify"),o(b,"class","pb-4 is-justify"),o(l,"class","image image--resize"),ee(l.src,S="/images/2021-btm-implant-bone-interface.jpg")||o(l,"src",S),o(l,"alt","Abstract"),o(l,"loading","lazy"),o(g,"class","pb-4"),o(m,"href","https://aiche.onlinelibrary.wiley.com/doi/10.1002/btm2.10239"),o(m,"target","_blank")},m(e,a){r(e,i,a),r(e,s,a),v(s,n),r(e,c,a),r(e,h,a),v(h,D),r(e,x,a),r(e,_,a),v(_,V),r(e,A,a),r(e,b,a),v(b,z),r(e,E,a),r(e,g,a),v(g,l),r(e,j,a),r(e,w,a),v(w,B),v(w,m),v(m,C),Q($,m,null),k=!0},p:W,i(e){k||(X($.$$.fragment,e),k=!0)},o(e){Y($.$$.fragment,e),k=!1},d(e){e&&t(i),e&&t(s),e&&t(c),e&&t(h),e&&t(x),e&&t(_),e&&t(A),e&&t(b),e&&t(E),e&&t(g),e&&t(j),e&&t(w),Z($)}}}function ce(I,i,s){let n;return te(I,N,c=>s(0,n=c)),ie(()=>ne(N,n=re(se,7).route_to,n)),[]}class le extends R{constructor(i){super(),L(this,i,ce,oe,J,{})}}function me(I){let i,s;return i=new le({}),{c(){O(i.$$.fragment)},l(n){P(i.$$.fragment,n)},m(n,c){Q(i,n,c),s=!0},p:W,i(n){s||(X(i.$$.fragment,n),s=!0)},o(n){Y(i.$$.fragment,n),s=!1},d(n){Z(i,n)}}}class be extends R{constructor(i){super(),L(this,i,null,me,J,{})}}export{be as default};
