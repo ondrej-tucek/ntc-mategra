@@ -24,9 +24,7 @@ const config = {
 			routes: 'src/routes',
 			// serviceWorker: 'src/service-worker',
 			template: 'src/app.html',
-		},
-		ssr: false,
-		target: '#svelte',
+		}
 	}
 };
 
