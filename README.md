@@ -15,6 +15,7 @@ npm run pkg:up    # update packages
 ### Dev
 ```bash
 npm run dev
+http://localhost:3000/
 ```
 
 ### Pre-Deploy
