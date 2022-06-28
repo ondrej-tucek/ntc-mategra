@@ -14,9 +14,12 @@ const config = {
 	kit: {
 		adapter: adapter({
 			pages: 'build',
-			assets: 'build',
-			fallback: 'index.html'
+			assets: 'build'
 		}),
+		prerender: {
+			default: true,
+			enabled: true,
+		},
 		files: {
 			assets: 'src/static',
 			// hooks: 'src/hooks',
