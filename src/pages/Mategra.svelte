@@ -5,6 +5,12 @@
 <div class="project-info is-centered py-4">
   Welcome to RESEARCH PROJECT website
   <div class="mategra-title is-italic">
+    Extended treatment of osteoporotic bone tissue with innovative metal surfaces
+    enriched with organic-inorganic nanoparticles
+  </div>
+    Project 349: OSTEMET<br>
+    &
+  <div class="mategra-title is-italic py-0">
     Advanced porous biomaterials functionalized with stem cells for enhanced
     implant osseointegration
   </div>
@@ -25,7 +31,7 @@
   .mategra-title {
     font-size: var(--fs-4);
     font-weight: 400;
-    padding: 1rem;
+    padding: 1rem 2rem;
   }
 
   .project-info {
