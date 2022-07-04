@@ -16,6 +16,7 @@
   </div>
   Project 201: MATEGRA
 </div>
+
 <div class="slider">
   {#each images as image}
     <div style="background-image: url({image.path})" />
@@ -70,10 +71,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    -webkit-animation: fadeInOut 20s infinite;
-    -moz-animation: fadeInOut 20s infinite;
-    -o-animation: fadeInOut 20s infinite;
-    animation: fadeInOut 20s infinite;
+    /* -webkit-animation: fadeInOut 30s infinite;
+    -moz-animation: fadeInOut 30s infinite;
+    -o-animation: fadeInOut 30s infinite; */
+    animation: fadeInOut 30s infinite;
     opacity: 0;
   }
 
@@ -93,6 +94,14 @@
     animation-delay: 15s;
   }
 
+  .slider > div:nth-child(5) {
+    animation-delay: 20s;
+  }
+
+  .slider > div:nth-child(6) {
+    animation-delay: 25s;
+  }
+
   @keyframes fadeInOut {
     10% {
       opacity: 1;
@@ -105,6 +114,7 @@
     }
     70% {
       transform: scale(1.2);
+      opacity: 0;
     }
   }
 
@@ -163,10 +173,10 @@
     background: rgba(0, 0, 0, 0.5);
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
-    -webkit-animation: fadeInOutText 20s infinite;
-    -moz-animation: fadeInOutText 20s infinite;
-    -o-animation: fadeInOutText 20s infinite;
-    animation: fadeInOutText 20s infinite;
+    /* -webkit-animation: fadeInOutText 30s infinite;
+    -moz-animation: fadeInOutText 30s infinite;
+    -o-animation: fadeInOutText 30s infinite; */
+    animation: fadeInOutText 30s infinite;
     opacity: 0;
     right: 0;
     bottom: 5vh;
@@ -188,14 +198,82 @@
     animation-delay: 15s;
   }
 
-  @keyframes fadeInOutText {
+  .slider-text > p:nth-child(5) {
+    animation-delay: 20s;
+  }
+
+  .slider-text > p:nth-child(6) {
+    animation-delay: 25s;
+  }
+
+  /* @keyframes fadeInOutText {
     10% {
       opacity: 1;
     }
-    25% {
+    30% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    70% {
+      opacity: 0;
+    }
+  }
+
+  @-o-keyframes fadeInOutText {
+    10% {
       opacity: 1;
     }
-    35% {
+    30% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    70% {
+      opacity: 0;
+    }
+  }
+
+  @-moz-keyframes fadeInOutText {
+    10% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    70% {
+      opacity: 0;
+    }
+  }
+
+  @-webkit-keyframes fadeInOutText {
+    10% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    70% {
+      opacity: 0;
+    }
+  } */
+
+  @keyframes fadeInOutText {
+    0% {
+      opacity: 0;
+    }
+    15% {
+      opacity: 1;
+    }
+    25% {
       opacity: 0;
     }
     70% {
