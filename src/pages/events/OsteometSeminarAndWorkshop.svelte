@@ -15,7 +15,7 @@
 <div class="pb-4">
   The symposium is established within the project No. 349 OSTEOMET:
   <div class="py-5 px-5 is-centered is-italic">
-    Advanced porous biomaterials functionalized with stem cells for enhanced implant osseointegrations.
+    Extended treatment of osteoporotic bone tissue with innovative metal surfaces enriched with organic-inorganic nanoparticles.
   </div>
   This is a cross-border cooperation program Czech Republic - Free State of Bavaria
   - EWO goal 2014 - 2020. Our project develops cooperation between NTC (New Technologies
