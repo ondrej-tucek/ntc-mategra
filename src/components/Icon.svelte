@@ -4,6 +4,7 @@
   import i_ex_link from "../static/icons/external-link.svg?raw";
   import i_phone from "../static/icons/phone.svg?raw";
   import i_envelope from "../static/icons/envelope.svg?raw";
+  import i_zoom from "../static/icons/zoom.svg?raw";
 
   export let i;
   let i_obj = new Object();
@@ -24,6 +25,9 @@
         break;
       case "envelope":
         i_obj = { icon: i_envelope, class: "icon-envelope" };
+        break;
+      case "zoom":
+        i_obj = { icon: i_zoom, class: "icon-zoom" };
         break;
       default:
         i_obj = { icon: "", class: "" };
@@ -75,5 +79,10 @@
   .icon-envelope {
     width: 16px;
     /* height: 16px; */
+  }
+
+  .icon-zoom {
+    width: 28px;
+    vertical-align: -0.3em;
   }
 </style>

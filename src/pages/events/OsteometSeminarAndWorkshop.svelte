@@ -13,7 +13,7 @@
   You are all warmly invited.
 </h2>
 <div class="pb-4">
-  The symposium is established within the project No. 201 MATEGRA:
+  The symposium is established within the project No. 349 OSTEOMET:
   <div class="py-5 px-5 is-centered is-italic">
     Advanced porous biomaterials functionalized with stem cells for enhanced implant osseointegrations.
   </div>
@@ -25,12 +25,24 @@
 <div class="pb-5">
   <img
     class="image image--resize image-border"
-    src={"/images/2022-virtual-symposium-preposter.jpg"}
+    src={"/images/2022-OSTEOMET-virtual-symposium-poster.jpg"}
     alt="Virtual symposium poster"
     loading="lazy"
   />
 </div>
 
+<div class="pb-4">
+  See pdf
+  <a href="/pdfs/OSTEOMET_workshop_26.07.2022_poster.pdf" target="_blank"
+    >poster <Icon i={"pdf"} />
+  </a>
+</div>
+<div>
+  Connect to Virtual symposium via
+  <a href="https://uni-regensburg.zoom.us/j/63179801834?pwd=dUtmamxZYlRWTzR6ekdmYXFkcXJ5Zz09#success"
+   target="_blank">Zoom <Icon i={"zoom"} />
+  </a>
+</div>
 
 <style>
 </style>
