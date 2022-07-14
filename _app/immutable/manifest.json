@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-1b66bbdf.js",
+    "file": "start-6dc2fac6.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -61,19 +61,19 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-8ddea433.js",
+    "file": "pages/about.svelte-7caffbfa.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-60a8efbe.js",
       "_route-5b391e3b.js",
-      "_Icon-55270904.js",
+      "_Icon-8fe12799.js",
       "_index-e08d3e32.js"
     ],
     "css": [
       "assets/pages/about.svelte-779f37a8.css",
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "src/routes/events/awards-for-theresia-stich.svelte": {
@@ -90,75 +90,75 @@
     ]
   },
   "src/routes/events/biomaterials-and-regenerative-cells.svelte": {
-    "file": "pages/events/biomaterials-and-regenerative-cells.svelte-6b9069a7.js",
+    "file": "pages/events/biomaterials-and-regenerative-cells.svelte-e9203bae.js",
     "src": "src/routes/events/biomaterials-and-regenerative-cells.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-60a8efbe.js",
-      "_Icon-55270904.js",
+      "_Icon-8fe12799.js",
       "_route-5b391e3b.js",
       "_events-f8e32cbd.js",
       "_utils-01dc11e0.js",
       "_index-e08d3e32.js"
     ],
     "css": [
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "src/routes/events/btm-implant-bone-interface.svelte": {
-    "file": "pages/events/btm-implant-bone-interface.svelte-50675b86.js",
+    "file": "pages/events/btm-implant-bone-interface.svelte-9b725fcc.js",
     "src": "src/routes/events/btm-implant-bone-interface.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-60a8efbe.js",
-      "_Icon-55270904.js",
+      "_Icon-8fe12799.js",
       "_route-5b391e3b.js",
       "_events-f8e32cbd.js",
       "_utils-01dc11e0.js",
       "_index-e08d3e32.js"
     ],
     "css": [
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "src/routes/events/first-workshop.svelte": {
-    "file": "pages/events/first-workshop.svelte-c9a44850.js",
+    "file": "pages/events/first-workshop.svelte-1e4b2fa7.js",
     "src": "src/routes/events/first-workshop.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-60a8efbe.js",
-      "_Icon-55270904.js",
+      "_Icon-8fe12799.js",
       "_route-5b391e3b.js",
       "_events-f8e32cbd.js",
       "_utils-01dc11e0.js",
       "_index-e08d3e32.js"
     ],
     "css": [
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "src/routes/events/mcp-biomimetic-calcium-deposition.svelte": {
-    "file": "pages/events/mcp-biomimetic-calcium-deposition.svelte-3b0de0f2.js",
+    "file": "pages/events/mcp-biomimetic-calcium-deposition.svelte-74509756.js",
     "src": "src/routes/events/mcp-biomimetic-calcium-deposition.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-60a8efbe.js",
-      "_Icon-55270904.js",
+      "_Icon-8fe12799.js",
       "_route-5b391e3b.js",
       "_events-f8e32cbd.js",
       "_utils-01dc11e0.js",
       "_index-e08d3e32.js"
     ],
     "css": [
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "src/routes/events/online-seminar.svelte": {
-    "file": "pages/events/online-seminar.svelte-8fce4dab.js",
+    "file": "pages/events/online-seminar.svelte-31240f95.js",
     "src": "src/routes/events/online-seminar.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -170,91 +170,92 @@
       "_index-e08d3e32.js"
     ],
     "css": [
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "src/routes/events/osteomet-seminar-and-workshop.svelte": {
-    "file": "pages/events/osteomet-seminar-and-workshop.svelte-0d822b58.js",
+    "file": "pages/events/osteomet-seminar-and-workshop.svelte-0ea53a7f.js",
     "src": "src/routes/events/osteomet-seminar-and-workshop.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-60a8efbe.js",
+      "_Icon-8fe12799.js",
       "_route-5b391e3b.js",
       "_events-f8e32cbd.js",
       "_utils-01dc11e0.js",
       "_index-e08d3e32.js"
     ],
     "css": [
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "src/routes/events/rsc-advances.svelte": {
-    "file": "pages/events/rsc-advances.svelte-74137922.js",
+    "file": "pages/events/rsc-advances.svelte-40ab225a.js",
     "src": "src/routes/events/rsc-advances.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-60a8efbe.js",
-      "_Icon-55270904.js",
+      "_Icon-8fe12799.js",
       "_route-5b391e3b.js",
       "_events-f8e32cbd.js",
       "_utils-01dc11e0.js",
       "_index-e08d3e32.js"
     ],
     "css": [
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "src/routes/events/sai-porous-micro-structured-titanium.svelte": {
-    "file": "pages/events/sai-porous-micro-structured-titanium.svelte-5f7ae788.js",
+    "file": "pages/events/sai-porous-micro-structured-titanium.svelte-f6679f41.js",
     "src": "src/routes/events/sai-porous-micro-structured-titanium.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-60a8efbe.js",
-      "_Icon-55270904.js",
+      "_Icon-8fe12799.js",
       "_route-5b391e3b.js",
       "_events-f8e32cbd.js",
       "_utils-01dc11e0.js",
       "_index-e08d3e32.js"
     ],
     "css": [
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "src/routes/events/second-workshop.svelte": {
-    "file": "pages/events/second-workshop.svelte-42d9d927.js",
+    "file": "pages/events/second-workshop.svelte-432b13dd.js",
     "src": "src/routes/events/second-workshop.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-60a8efbe.js",
-      "_Icon-55270904.js",
+      "_Icon-8fe12799.js",
       "_route-5b391e3b.js",
       "_events-f8e32cbd.js",
       "_utils-01dc11e0.js",
       "_index-e08d3e32.js"
     ],
     "css": [
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "src/routes/events/surface-science.svelte": {
-    "file": "pages/events/surface-science.svelte-72fb9fec.js",
+    "file": "pages/events/surface-science.svelte-0903af3a.js",
     "src": "src/routes/events/surface-science.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-60a8efbe.js",
-      "_Icon-55270904.js",
+      "_Icon-8fe12799.js",
       "_route-5b391e3b.js",
       "_events-f8e32cbd.js",
       "_utils-01dc11e0.js",
       "_index-e08d3e32.js"
     ],
     "css": [
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "src/routes/gallery.svelte": {
@@ -272,23 +273,23 @@
     ]
   },
   "src/routes/group.svelte": {
-    "file": "pages/group.svelte-8234b1c6.js",
+    "file": "pages/group.svelte-b1192b92.js",
     "src": "src/routes/group.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-60a8efbe.js",
       "_route-5b391e3b.js",
-      "_Icon-55270904.js",
+      "_Icon-8fe12799.js",
       "_index-e08d3e32.js"
     ],
     "css": [
       "assets/pages/group.svelte-1f08edd5.css",
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-c3a15c44.js",
+    "file": "pages/index.svelte-17480774.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -296,7 +297,7 @@
       "_index-60a8efbe.js"
     ],
     "css": [
-      "assets/pages/index.svelte-9bda7ce0.css"
+      "assets/pages/index.svelte-d56dff69.css"
     ]
   },
   "_index-60a8efbe.js": {
@@ -317,13 +318,13 @@
   "_events-f8e32cbd.js": {
     "file": "chunks/events-f8e32cbd.js"
   },
-  "_Icon-55270904.js": {
-    "file": "chunks/Icon-55270904.js",
+  "_Icon-8fe12799.js": {
+    "file": "chunks/Icon-8fe12799.js",
     "imports": [
       "_index-60a8efbe.js"
     ],
     "css": [
-      "assets/Icon.svelte_svelte_type_style_lang-6e39e8ab.css"
+      "assets/Icon.svelte_svelte_type_style_lang-6f0e1512.css"
     ]
   },
   "_utils-01dc11e0.js": {
