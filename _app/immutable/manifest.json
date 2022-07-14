@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-6dc2fac6.js",
+    "file": "start-68eb18d3.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -174,7 +174,7 @@
     ]
   },
   "src/routes/events/osteomet-seminar-and-workshop.svelte": {
-    "file": "pages/events/osteomet-seminar-and-workshop.svelte-0ea53a7f.js",
+    "file": "pages/events/osteomet-seminar-and-workshop.svelte-7144dce7.js",
     "src": "src/routes/events/osteomet-seminar-and-workshop.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
