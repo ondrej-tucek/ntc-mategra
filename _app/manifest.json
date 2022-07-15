@@ -1,0 +1,377 @@
+{
+  "src/static/logos/zcu.png": {
+    "file": "immutable/assets/zcu-4c96c9e5.png",
+    "src": "src/static/logos/zcu.png"
+  },
+  "src/static/logos/regensburg.svg": {
+    "file": "immutable/assets/regensburg-29f390e2.svg",
+    "src": "src/static/logos/regensburg.svg"
+  },
+  "src/static/logos/etz.svg": {
+    "file": "immutable/assets/etz-300b81d1.svg",
+    "src": "src/static/logos/etz.svg"
+  },
+  "src/static/logos/eu.svg": {
+    "file": "immutable/assets/eu-3c07b5d9.svg",
+    "src": "src/static/logos/eu.svg"
+  },
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "immutable/start-4bf0d159.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_index-746dccd0.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      "src/routes/__error.svelte",
+      "src/routes/about.svelte",
+      "src/routes/events/awards-for-theresia-stich.svelte",
+      "src/routes/events/biomaterials-and-regenerative-cells.svelte",
+      "src/routes/events/btm-implant-bone-interface.svelte",
+      "src/routes/events/first-workshop.svelte",
+      "src/routes/events/mcp-biomimetic-calcium-deposition.svelte",
+      "src/routes/events/online-seminar.svelte",
+      "src/routes/events/osteomet-seminar-and-workshop.svelte",
+      "src/routes/events/rsc-advances.svelte",
+      "src/routes/events/sai-porous-micro-structured-titanium.svelte",
+      "src/routes/events/second-workshop.svelte",
+      "src/routes/events/surface-science.svelte",
+      "src/routes/gallery.svelte",
+      "src/routes/group.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "immutable/pages/__layout.svelte-c8308252.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_events-2487499c.js",
+      "_route-0feed4ca.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/__layout-933064a9.css"
+    ],
+    "assets": [
+      "immutable/assets/eu-3c07b5d9.svg",
+      "immutable/assets/etz-300b81d1.svg",
+      "immutable/assets/zcu-4c96c9e5.png",
+      "immutable/assets/regensburg-29f390e2.svg"
+    ]
+  },
+  "src/routes/__error.svelte": {
+    "file": "immutable/pages/__error.svelte-0d7cd6ed.js",
+    "src": "src/routes/__error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js"
+    ],
+    "css": [
+      "immutable/assets/__error-2804b97d.css"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "immutable/pages/about.svelte-d38d252e.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_route-0feed4ca.js",
+      "_Icon-0e1243e1.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/about-6c607d9d.css",
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "src/routes/events/awards-for-theresia-stich.svelte": {
+    "file": "immutable/pages/events/awards-for-theresia-stich.svelte-131b4a65.js",
+    "src": "src/routes/events/awards-for-theresia-stich.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_route-0feed4ca.js",
+      "_events-2487499c.js",
+      "_utils-8fa6b3f0.js",
+      "_index-746dccd0.js"
+    ]
+  },
+  "src/routes/events/biomaterials-and-regenerative-cells.svelte": {
+    "file": "immutable/pages/events/biomaterials-and-regenerative-cells.svelte-fc4fad7f.js",
+    "src": "src/routes/events/biomaterials-and-regenerative-cells.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_Icon-0e1243e1.js",
+      "_route-0feed4ca.js",
+      "_events-2487499c.js",
+      "_utils-8fa6b3f0.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "src/routes/events/btm-implant-bone-interface.svelte": {
+    "file": "immutable/pages/events/btm-implant-bone-interface.svelte-5747ec3c.js",
+    "src": "src/routes/events/btm-implant-bone-interface.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_Icon-0e1243e1.js",
+      "_route-0feed4ca.js",
+      "_events-2487499c.js",
+      "_utils-8fa6b3f0.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "src/routes/events/first-workshop.svelte": {
+    "file": "immutable/pages/events/first-workshop.svelte-dfc9fa5e.js",
+    "src": "src/routes/events/first-workshop.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_Icon-0e1243e1.js",
+      "_route-0feed4ca.js",
+      "_events-2487499c.js",
+      "_utils-8fa6b3f0.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "src/routes/events/mcp-biomimetic-calcium-deposition.svelte": {
+    "file": "immutable/pages/events/mcp-biomimetic-calcium-deposition.svelte-99e38e1c.js",
+    "src": "src/routes/events/mcp-biomimetic-calcium-deposition.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_Icon-0e1243e1.js",
+      "_route-0feed4ca.js",
+      "_events-2487499c.js",
+      "_utils-8fa6b3f0.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "src/routes/events/online-seminar.svelte": {
+    "file": "immutable/pages/events/online-seminar.svelte-3348f3f9.js",
+    "src": "src/routes/events/online-seminar.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_route-0feed4ca.js",
+      "_events-2487499c.js",
+      "_utils-8fa6b3f0.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "src/routes/events/osteomet-seminar-and-workshop.svelte": {
+    "file": "immutable/pages/events/osteomet-seminar-and-workshop.svelte-109638eb.js",
+    "src": "src/routes/events/osteomet-seminar-and-workshop.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_Icon-0e1243e1.js",
+      "_route-0feed4ca.js",
+      "_events-2487499c.js",
+      "_utils-8fa6b3f0.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "src/routes/events/rsc-advances.svelte": {
+    "file": "immutable/pages/events/rsc-advances.svelte-ba760565.js",
+    "src": "src/routes/events/rsc-advances.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_Icon-0e1243e1.js",
+      "_route-0feed4ca.js",
+      "_events-2487499c.js",
+      "_utils-8fa6b3f0.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "src/routes/events/sai-porous-micro-structured-titanium.svelte": {
+    "file": "immutable/pages/events/sai-porous-micro-structured-titanium.svelte-6fa5c9a3.js",
+    "src": "src/routes/events/sai-porous-micro-structured-titanium.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_Icon-0e1243e1.js",
+      "_route-0feed4ca.js",
+      "_events-2487499c.js",
+      "_utils-8fa6b3f0.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "src/routes/events/second-workshop.svelte": {
+    "file": "immutable/pages/events/second-workshop.svelte-c0d5a31e.js",
+    "src": "src/routes/events/second-workshop.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_Icon-0e1243e1.js",
+      "_route-0feed4ca.js",
+      "_events-2487499c.js",
+      "_utils-8fa6b3f0.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "src/routes/events/surface-science.svelte": {
+    "file": "immutable/pages/events/surface-science.svelte-90208e1d.js",
+    "src": "src/routes/events/surface-science.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_Icon-0e1243e1.js",
+      "_route-0feed4ca.js",
+      "_events-2487499c.js",
+      "_utils-8fa6b3f0.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "src/routes/gallery.svelte": {
+    "file": "immutable/pages/gallery.svelte-b6969832.js",
+    "src": "src/routes/gallery.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_route-0feed4ca.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/gallery-26149cf6.css"
+    ]
+  },
+  "src/routes/group.svelte": {
+    "file": "immutable/pages/group.svelte-a02160d9.js",
+    "src": "src/routes/group.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js",
+      "_route-0feed4ca.js",
+      "_Icon-0e1243e1.js",
+      "_index-746dccd0.js"
+    ],
+    "css": [
+      "immutable/assets/group-f8def5b2.css",
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "immutable/pages/index.svelte-ee138bd7.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f84ee2f5.js"
+    ],
+    "css": [
+      "immutable/assets/index-98936c76.css"
+    ]
+  },
+  "_index-f84ee2f5.js": {
+    "file": "immutable/chunks/index-f84ee2f5.js"
+  },
+  "_index-746dccd0.js": {
+    "file": "immutable/chunks/index-746dccd0.js",
+    "imports": [
+      "_index-f84ee2f5.js"
+    ]
+  },
+  "_route-0feed4ca.js": {
+    "file": "immutable/chunks/route-0feed4ca.js",
+    "imports": [
+      "_index-746dccd0.js"
+    ]
+  },
+  "_events-2487499c.js": {
+    "file": "immutable/chunks/events-2487499c.js"
+  },
+  "_Icon-0e1243e1.js": {
+    "file": "immutable/chunks/Icon-0e1243e1.js",
+    "imports": [
+      "_index-f84ee2f5.js"
+    ],
+    "css": [
+      "immutable/assets/Icon-870ba916.css"
+    ]
+  },
+  "_utils-8fa6b3f0.js": {
+    "file": "immutable/chunks/utils-8fa6b3f0.js"
+  },
+  "src/routes/about.css": {
+    "file": "immutable/assets/about-6c607d9d.css",
+    "src": "src/routes/about.css"
+  },
+  "src/routes/__error.css": {
+    "file": "immutable/assets/__error-2804b97d.css",
+    "src": "src/routes/__error.css"
+  },
+  "src/routes/index.css": {
+    "file": "immutable/assets/index-98936c76.css",
+    "src": "src/routes/index.css"
+  },
+  "src/routes/__layout.css": {
+    "file": "immutable/assets/__layout-933064a9.css",
+    "src": "src/routes/__layout.css"
+  },
+  "src/routes/group.css": {
+    "file": "immutable/assets/group-f8def5b2.css",
+    "src": "src/routes/group.css"
+  },
+  "src/routes/gallery.css": {
+    "file": "immutable/assets/gallery-26149cf6.css",
+    "src": "src/routes/gallery.css"
+  },
+  "Icon.css": {
+    "file": "immutable/assets/Icon-870ba916.css",
+    "src": "Icon.css"
+  }
+}
