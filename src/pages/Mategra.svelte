@@ -5,10 +5,10 @@
 <div class="project-info is-centered py-4">
   Welcome to RESEARCH PROJECT website
   <div class="mategra-title is-italic">
-    Extended treatment of osteoporotic bone tissue with innovative metal surfaces
-    enriched with organic-inorganic nanoparticles
+    Augmented treatment of osteoporotic bone with innovative organic-inorganic
+    nanoparticle functionalized metal surfaces
   </div>
-    Project 349: OSTEMET<br>
+    Project 349: OSTEOMET<br>
     &
   <div class="mategra-title is-italic py-0">
     Advanced porous biomaterials functionalized with stem cells for enhanced
