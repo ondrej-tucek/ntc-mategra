@@ -1,11 +1,5 @@
 <script>
-  import Icon from "../../components/Icon.svelte";
-  import { onMount } from "svelte";
-  import { routeStore as route_to } from "../../store/route.js";
-  import { events } from "../../data/events.js";
-  import { get_id } from "../../js/utils.js";
-
-  onMount(() => ($route_to = get_id(events, 4).route_to));
+  import Icon from "../../../components/Icon.svelte";
 </script>
 
 The article

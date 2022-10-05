@@ -3,8 +3,7 @@
   import "../css/global.css";
   import Navbar from "../components/Navbar.svelte";
   import Events from "../components/EventsList.svelte";
-  import Logos from "../pages/Logos.svelte";
-  // import { routeStore as route_to } from "../store/route.js";
+  import Logos from "../components/Logos.svelte";
   import { page } from '$app/stores';
 </script>
 

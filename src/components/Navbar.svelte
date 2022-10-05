@@ -1,29 +1,24 @@
 <script>
   import { events } from "../data/events.js";
-  import { routeStore } from "../store/route.js";
+
+   export let links;
 </script>
 
 <nav class="navbar">
   <a
     class="navbar-item"
-    on:click={() => ($routeStore = "/")}
-    sveltekit:prefetch
     href="/">Mategra</a
   >
   <a
     class="navbar-item"
-    on:click={() => ($routeStore = "/about")}
     href="/about">About</a
   >
   <a
     class="navbar-item"
-    on:click={() => ($routeStore = "/group")}
-    rel="prefetch"
     href="/group">Group</a
   >
   <a
     class="navbar-item"
-    on:click={() => ($routeStore = "/gallery")}
     data-sveltekit-prefetch
     href="/gallery">Gallery</a
   >
@@ -33,7 +28,6 @@
       {#each events as event}
         <a
           class="dropdown-link"
-          on:click={() => ($routeStore = event.route_to)}
           rel="prefetch"
           href={event.route_to}
           >{@html event.header}
@@ -54,6 +48,7 @@
     background-color: white;
     /* padding: 0.5rem 0; */
     padding: 0 1rem;
+    cursor: pointer;
   }
 
   .navbar-item {
