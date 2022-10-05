@@ -1,9 +1,5 @@
 <script>
-  import { onMount } from "svelte";
-  import { routeStore as route_to } from "../store/route.js";
-  import { images } from "../data/gallery_images.js";
-
-  onMount(() => ($route_to = "/group"));
+  import { images } from "../../data/gallery_images.js";
 </script>
 
 <div class="flex">

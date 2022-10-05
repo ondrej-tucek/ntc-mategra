@@ -1,6 +1,4 @@
 <script>
-  import { routeStore } from "../store/route.js";
-
   export let event;
 </script>
 
@@ -8,7 +6,6 @@
   class="card-link"
   rel="prefetch"
   href={event.route_to}
-  on:click={() => ($routeStore = event.route_to)}
 >
   <div class="card zoom">
     <div class="card-header">

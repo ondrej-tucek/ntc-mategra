@@ -1,9 +1,5 @@
 <script>
-  import { onMount } from "svelte";
-  import { routeStore as route_to } from "../store/route.js";
-  import Icon from "../components/Icon.svelte";
-
-  onMount(() => ($route_to = "/group"));
+	import Icon from "../../components/Icon.svelte";
 </script>
 
 <div class="is-justify pb-4">

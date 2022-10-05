@@ -1,10 +1,6 @@
 <script>
-  import { onMount } from "svelte";
-  import { routeStore as route_to } from "../store/route.js";
-  import ScientistCard from "../components/ScientistCard.svelte";
-  import { scientists } from "../data/scientists.js";
-
-  onMount(() => ($route_to = "/group"));
+  import ScientistCard from "../../components/ScientistCard.svelte";
+  import { scientists } from "../../data/scientists.js";
 </script>
 
 <div class="is-justify pb-4">
