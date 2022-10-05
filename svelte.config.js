@@ -17,7 +17,6 @@ const config = {
 			assets: 'build'
 		}),
 		prerender: {
-			default: true,
 			enabled: true,
 		},
 		files: {
@@ -26,7 +25,7 @@ const config = {
 			// lib: 'src/lib',
 			routes: 'src/routes',
 			// serviceWorker: 'src/service-worker',
-			template: 'src/app.html',
+			appTemplate: 'src/app.html',
 		}
 	}
 };
