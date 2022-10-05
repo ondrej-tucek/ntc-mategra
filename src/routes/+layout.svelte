@@ -4,7 +4,8 @@
   import Navbar from "../components/Navbar.svelte";
   import Events from "../components/EventsList.svelte";
   import Logos from "../pages/Logos.svelte";
-  import { routeStore as route_to } from "../store/route.js";
+  // import { routeStore as route_to } from "../store/route.js";
+  import { page } from '$app/stores';
 </script>
 
 <svelte:head>
@@ -14,7 +15,7 @@
   <div class="grid">
     <div class="main box">
       <Navbar />
-      <div class={$route_to === "/" ? "mategra-home" : "content scroll"}>
+      <div class={$page.url.pathname === "/" ? "mategra-home" : "content scroll"}>
         <slot />
       </div>
     </div>

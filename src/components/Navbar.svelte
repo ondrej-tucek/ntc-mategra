@@ -13,7 +13,6 @@
   <a
     class="navbar-item"
     on:click={() => ($routeStore = "/about")}
-    rel="prefetch"
     href="/about">About</a
   >
   <a
@@ -25,7 +24,7 @@
   <a
     class="navbar-item"
     on:click={() => ($routeStore = "/gallery")}
-    rel="prefetch"
+    data-sveltekit-prefetch
     href="/gallery">Gallery</a
   >
   <div class="navbar-item dropdown">

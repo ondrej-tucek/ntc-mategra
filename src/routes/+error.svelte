@@ -1,34 +1,23 @@
 <script context="module">
-  /** @type {import('../../../../../types').ErrorLoad} */
-  export function load({ status, error }) {
-    return {
-      props: { status, error },
-    };
-  }
-</script>
-
-<script>
-  import { dev } from "$app/env";
-
-  /** @type {number} */
-  export let status;
-  /** @type {Error} */
-  export let error;
+  import { page } from '$app/stores';
+  import { dev } from "$app/environment";
 </script>
 
 <div class="center">
   <div>
-    <h1>{status}</h1>
+    <h1>{$page.status}</h1>
 
-    <p>{error.message}</p>
+    <p>{$page.error.message}</p>
   </div>
 </div>
 
-{#if dev && error.stack}
+{#if dev}
   <div class="error-stack">
-    <pre>{error.stack}</pre>
+    HTTP status: <pre>{$page.status}</pre>
+    Error message: <pre>{$page.error.message}</pre>
   </div>
 {/if}
+
 
 <style>
   .error-stack {
