@@ -296,4 +296,21 @@
       opacity: 0;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    .project-info {
+      grid-area: info;
+      position: relative;
+      border-radius: 0;
+    }
+
+    .slider {
+      grid-area: slider;
+      border-radius: 0;
+    }
+
+    .slider-text > p {
+      bottom: 2rem;
+    }
+  }
 </style>

@@ -44,33 +44,52 @@
 
   #eu {
     background: url(../static/logos/eu.svg) no-repeat center;
-    background-size: contain;
+    background-size: cover;
     background-origin: content-box;
   }
 
   #etz {
     background: url(../static/logos/etz.svg) no-repeat center;
-    background-size: contain;
+    background-size: cover;
     background-origin: content-box;
   }
 
   #ntc {
     background: url(../static/logos/zcu.png) no-repeat center;
-    background-size: contain;
+    background-size: cover;
     background-origin: content-box;
   }
 
   #ukr {
     background: url(../static/logos/regensburg.svg) no-repeat center;
-    background-size: contain;
+    background-size: cover;
     background-origin: content-box;
   }
 
   @media only screen and (max-width: 600px) {
-    /* .logos {
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
-    } */
+    .logos {
+      grid-area: logos;
+      padding: 1.3rem;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      /* grid-gap: 1rem; */
+      position: relative;
+      height: 17rem;
+    }
+
+    .link {
+      height: 100%;
+      width: 100%;
+      padding: 1.5rem;
+      transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .box {
+      border-radius: 0;
+    }
   }
 
   @media only screen and (min-width: 600px) and (max-width: 900px) {

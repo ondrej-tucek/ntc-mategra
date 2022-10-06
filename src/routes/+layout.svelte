@@ -66,17 +66,26 @@
   }
 
   @media only screen and (max-width: 600px) {
+    .content {
+      height: 100%;
+      padding: 1rem
+    }
+
     .grid-wrap {
       padding: 0;
+      width: 100%;
+      height: 100vh;
     }
 
     .grid {
-      grid-template-columns: 5fr;
-      grid-template-rows: 3fr 1.5fr;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto 4fr;
       grid-template-areas:
         "main"
         "logos";
-      grid-gap: 1rem;
+      grid-gap: 0;
     }
 
     .main {
@@ -84,8 +93,15 @@
       height: 100%;
     }
 
-    .content {
-      height: 100%;
+    .mategra-home {
+      /* height: 100%; */
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto 2fr;
+      grid-template-areas:
+        "info"
+        "slider";
+      grid-gap: 0;
     }
   }
 
