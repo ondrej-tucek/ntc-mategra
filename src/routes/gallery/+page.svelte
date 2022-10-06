@@ -63,4 +63,19 @@
     right: 0;
     bottom: 28px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .flex {
+      display: flex;
+      flex-direction:column;
+      margin-top: -0.75rem;
+    }
+
+    .flex-item {
+      flex: none;
+      display: block;
+      width: 100%;
+      padding: 0.75rem;
+    }
+  }
 </style>
