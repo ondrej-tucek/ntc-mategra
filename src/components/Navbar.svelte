@@ -1,7 +1,10 @@
 <script>
   import { events } from "../data/events.js";
+  let is_dropdown_open = false;
 
-   export let links;
+  const handle_dropdown = () => {
+    is_dropdown_open = !is_dropdown_open
+  }
 </script>
 
 <nav class="navbar">
@@ -22,9 +25,9 @@
     data-sveltekit-prefetch
     href="/gallery">Gallery</a
   >
-  <div class="navbar-item dropdown">
+  <div class="navbar-item dropdown" on:click={handle_dropdown}>
     Events
-    <div class="dropdown-content">
+    <div class="dropdown-content" style:visibility={is_dropdown_open ? 'visible' : 'hidden'}>
       {#each events as event}
         <a
           class="dropdown-link"
@@ -44,7 +47,6 @@
     align-items: center;
     width: 100%;
     margin-bottom: 1.75rem;
-    /* background: lightcoral; */
     background-color: white;
     /* padding: 0.5rem 0; */
     padding: 0 1rem;
@@ -132,8 +134,14 @@
     cursor: pointer;
   }
 
+  .dropdown:hover {
+    display: block;
+    background-color: var(--clr-ukr);
+  }
+
   .dropdown-content {
     display: none;
+    width: 100vw;
     position: absolute;
     right: 0;
     background-color: #f9f9f9;
@@ -145,16 +153,11 @@
 
   .dropdown:hover .dropdown-content {
     display: block;
-    width: 60vw;
-  }
-
-  .dropdown:hover {
-    background-color: var(--clr-ukr);
   }
 
   .dropdown-link {
     color: black;
-    padding: 0.75rem 0.75rem 0.75rem 0;
+    padding: 0.75rem;
     text-decoration: none;
     display: block;
     font-size: var(--fs-5);
