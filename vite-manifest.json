@@ -16,12 +16,12 @@
     "src": "src/static/logos/regensburg.svg"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-f1b8df5f.js",
+    "file": "_app/immutable/start-79b67b65.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-342047ed.js",
-      "_singletons-8b183dd1.js"
+      "_singletons-3fe67314.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -44,15 +44,15 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-71772df8.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-5b4abe22.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
       "_index-342047ed.js",
-      "_stores-ad0f997f.js"
+      "_stores-870e4440.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-c06839e7.css"
+      "_app/immutable/assets/_layout-3cdf33ba.css"
     ],
     "assets": [
       "_app/immutable/assets/eu-3c07b5d9.svg",
@@ -62,12 +62,12 @@
     ]
   },
   "src/routes/+error.svelte": {
-    "file": "_app/immutable/components/pages/_error.svelte-6b68b0a7.js",
+    "file": "_app/immutable/components/pages/_error.svelte-984ee546.js",
     "src": "src/routes/+error.svelte",
     "isEntry": true,
     "imports": [
       "_index-342047ed.js",
-      "_stores-ad0f997f.js"
+      "_stores-870e4440.js"
     ],
     "css": [
       "_app/immutable/assets/_error-2804b97d.css"
@@ -227,8 +227,8 @@
       "__layout-88e414a0.js"
     ]
   },
-  "_singletons-8b183dd1.js": {
-    "file": "_app/immutable/chunks/singletons-8b183dd1.js",
+  "_singletons-3fe67314.js": {
+    "file": "_app/immutable/chunks/singletons-3fe67314.js",
     "imports": [
       "_index-342047ed.js"
     ]
@@ -236,11 +236,11 @@
   "_index-342047ed.js": {
     "file": "_app/immutable/chunks/index-342047ed.js"
   },
-  "_stores-ad0f997f.js": {
-    "file": "_app/immutable/chunks/stores-ad0f997f.js",
+  "_stores-870e4440.js": {
+    "file": "_app/immutable/chunks/stores-870e4440.js",
     "imports": [
       "_index-342047ed.js",
-      "_singletons-8b183dd1.js"
+      "_singletons-3fe67314.js"
     ]
   },
   "__layout-88e414a0.js": {
@@ -256,7 +256,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-590ada57.js",
+    "file": "_app/immutable/chunks/0-c1502b85.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -265,7 +265,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-b5440b19.js",
+    "file": "_app/immutable/chunks/1-239097a2.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -392,9 +392,9 @@
       "src/routes/group/+page.svelte"
     ]
   },
-  "src/routes/+error.css": {
-    "file": "_app/immutable/assets/_error-2804b97d.css",
-    "src": "src/routes/+error.css"
+  "src/routes/about/+page.css": {
+    "file": "_app/immutable/assets/_page-6c607d9d.css",
+    "src": "src/routes/about/+page.css"
   },
   "Icon.css": {
     "file": "_app/immutable/assets/Icon-870ba916.css",
@@ -404,20 +404,20 @@
     "file": "_app/immutable/assets/_page-bf7f6408.css",
     "src": "src/routes/+page.css"
   },
-  "src/routes/about/+page.css": {
-    "file": "_app/immutable/assets/_page-6c607d9d.css",
-    "src": "src/routes/about/+page.css"
+  "src/routes/+error.css": {
+    "file": "_app/immutable/assets/_error-2804b97d.css",
+    "src": "src/routes/+error.css"
+  },
+  "src/routes/group/+page.css": {
+    "file": "_app/immutable/assets/_page-f8def5b2.css",
+    "src": "src/routes/group/+page.css"
   },
   "src/routes/gallery/+page.css": {
     "file": "_app/immutable/assets/_page-6215110e.css",
     "src": "src/routes/gallery/+page.css"
   },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-c06839e7.css",
+    "file": "_app/immutable/assets/_layout-3cdf33ba.css",
     "src": "src/routes/+layout.css"
-  },
-  "src/routes/group/+page.css": {
-    "file": "_app/immutable/assets/_page-f8def5b2.css",
-    "src": "src/routes/group/+page.css"
   }
 }
