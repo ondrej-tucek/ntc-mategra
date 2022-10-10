@@ -1,7 +1,7 @@
 export let events = [
   {
     id: 11,
-    header: "Virtual Symposium",
+    header: "Virtual Symposium 2022",
     body: 'Osteomet Seminar & Workshop',
     footer: "26. 7. 2022",
     route_to: "/events/osteomet-seminar-and-workshop",
@@ -9,7 +9,7 @@ export let events = [
   },
   {
     id: 10,
-    header: "Virtual Symposium",
+    header: "Virtual Symposium 2021",
     body: 'Advancing the Interface: </br> Biomaterials and regenerative cells',
     footer: "11. 11. 2021",
     route_to: "/events/biomaterials-and-regenerative-cells",

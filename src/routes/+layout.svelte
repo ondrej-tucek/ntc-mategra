@@ -27,7 +27,6 @@
   .grid-wrap {
     padding: 4vh 10vw;
     display: grid;
-    background: #f5f5f5;
   }
 
   .grid {

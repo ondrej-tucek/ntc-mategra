@@ -97,5 +97,22 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr;
     } */
+
+    #eu, #ntc, #etz, #ukr {
+      background-size: contain;
+    }
+  }
+
+
+  @media only screen and (min-width: 900px) and (max-width: 1200px) {
+    #eu, #ntc, #etz, #ukr {
+      background-size: contain;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    #eu, #ntc, #etz, #ukr {
+      background-size: contain;
+    }
   }
 </style>

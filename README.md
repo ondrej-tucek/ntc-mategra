@@ -20,6 +20,16 @@ npm run pkg:up    # update packages
  </code>
 </pre>
 
+Note:
+In case of error:
+> node: /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.27' not found (required by node)
+
+run
+```
+nvm install --lts
+```
+
+
 ### Pre-Deploy
 ```bash
 npm run build
