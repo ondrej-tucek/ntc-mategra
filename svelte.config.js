@@ -16,9 +16,6 @@ const config = {
 			pages: 'build',
 			assets: 'build'
 		}),
-		prerender: {
-			enabled: true,
-		},
 		files: {
 			assets: 'src/static',
 			// hooks: 'src/hooks',
