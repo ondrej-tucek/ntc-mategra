@@ -1,0 +1,17 @@
+import{S as ae,i as se,s as ie,k as o,q as c,a as S,y as P,l as n,m,r as u,h as t,c as I,z as X,n as i,P as re,b as p,C as a,A as G,E as oe,g as H,d as L,B as Q}from"../chunks/index.ecaeb798.js";import{I as ee}from"../chunks/Icon.cdc40067.js";function ne(te){let r,T,V,x,$,l,A,E,j,k,w,_,f,F,C,d,D,v,N,g,O,b,M,h,U,y,z;return g=new ee({props:{i:"pdf"}}),y=new ee({props:{i:"zoom"}}),{c(){r=o("h2"),T=o("div"),V=c("A virtual symposium is scheduled for July 26, 2022."),x=c(`
+  You are all warmly invited.`),$=S(),l=o("div"),A=c(`The symposium is established within the project No. 349 OSTEOMET:
+  `),E=o("div"),j=c(`Augmented treatment of osteoporotic bone with innovative organic-inorganic
+    nanoparticle functionalized metal surfaces.`),k=c(`
+  This is a cross-border cooperation program Czech Republic - Free State of Bavaria
+  - EWO goal 2014 - 2020. Our project develops cooperation between NTC (New Technologies
+  - Research Center) and UKR (University Clinic in Regensburg).`),w=S(),_=o("div"),f=o("img"),C=S(),d=o("div"),D=c(`See pdf
+  `),v=o("a"),N=c("poster "),P(g.$$.fragment),O=S(),b=o("div"),M=c(`Connect to Virtual symposium via
+  `),h=o("a"),U=c("Zoom "),P(y.$$.fragment),this.h()},l(e){r=n(e,"H2",{class:!0});var s=m(r);T=n(s,"DIV",{});var J=m(T);V=u(J,"A virtual symposium is scheduled for July 26, 2022."),J.forEach(t),x=u(s,`
+  You are all warmly invited.`),s.forEach(t),$=I(e),l=n(e,"DIV",{class:!0});var R=m(l);A=u(R,`The symposium is established within the project No. 349 OSTEOMET:
+  `),E=n(R,"DIV",{class:!0});var W=m(E);j=u(W,`Augmented treatment of osteoporotic bone with innovative organic-inorganic
+    nanoparticle functionalized metal surfaces.`),W.forEach(t),k=u(R,`
+  This is a cross-border cooperation program Czech Republic - Free State of Bavaria
+  - EWO goal 2014 - 2020. Our project develops cooperation between NTC (New Technologies
+  - Research Center) and UKR (University Clinic in Regensburg).`),R.forEach(t),w=I(e),_=n(e,"DIV",{class:!0});var K=m(_);f=n(K,"IMG",{class:!0,src:!0,alt:!0,loading:!0}),K.forEach(t),C=I(e),d=n(e,"DIV",{class:!0});var Y=m(d);D=u(Y,`See pdf
+  `),v=n(Y,"A",{href:!0,target:!0});var Z=m(v);N=u(Z,"poster "),X(g.$$.fragment,Z),Z.forEach(t),Y.forEach(t),O=I(e),b=n(e,"DIV",{});var q=m(b);M=u(q,`Connect to Virtual symposium via
+  `),h=n(q,"A",{href:!0,target:!0});var B=m(h);U=u(B,"Zoom "),X(y.$$.fragment,B),B.forEach(t),q.forEach(t),this.h()},h(){i(r,"class","article-title"),i(E,"class","py-5 px-5 is-centered is-italic"),i(l,"class","pb-4"),i(f,"class","image image--resize image-border"),re(f.src,F="/images/2022-OSTEOMET-virtual-symposium-poster.jpg")||i(f,"src",F),i(f,"alt","Virtual symposium poster"),i(f,"loading","lazy"),i(_,"class","pb-5"),i(v,"href","/pdfs/OSTEOMET_workshop_26.07.2022_poster.pdf"),i(v,"target","_blank"),i(d,"class","pb-4"),i(h,"href","https://uni-regensburg.zoom.us/j/63179801834?pwd=dUtmamxZYlRWTzR6ekdmYXFkcXJ5Zz09#success"),i(h,"target","_blank")},m(e,s){p(e,r,s),a(r,T),a(T,V),a(r,x),p(e,$,s),p(e,l,s),a(l,A),a(l,E),a(E,j),a(l,k),p(e,w,s),p(e,_,s),a(_,f),p(e,C,s),p(e,d,s),a(d,D),a(d,v),a(v,N),G(g,v,null),p(e,O,s),p(e,b,s),a(b,M),a(b,h),a(h,U),G(y,h,null),z=!0},p:oe,i(e){z||(H(g.$$.fragment,e),H(y.$$.fragment,e),z=!0)},o(e){L(g.$$.fragment,e),L(y.$$.fragment,e),z=!1},d(e){e&&t(r),e&&t($),e&&t(l),e&&t(w),e&&t(_),e&&t(C),e&&t(d),Q(g),e&&t(O),e&&t(b),Q(y)}}}class me extends ae{constructor(r){super(),se(this,r,null,ne,ie,{})}}export{me as default};
