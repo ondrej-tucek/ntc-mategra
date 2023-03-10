@@ -22,8 +22,24 @@ symposium on March 30, 2022.
 <div class="pb-5">
   <img
     class="image image--resize image-border"
-    src={"/images/2022-OSTEOMET-virtual-symposium-poster.jpg"}
-    alt="Virtual symposium poster"
+    src={"/images/2023-flyer_page1.jpg"}
+    alt="Symposium flyer first page"
+    loading="lazy"
+  />
+</div>
+<div class="pb-4">
+  <img
+    class="image image--resize image-border"
+    src={"/images/2023-flyer_page2.jpg"}
+    alt="Symposium flyer Program page 1"
+    loading="lazy"
+  />
+</div>
+<div class="pb-4">
+  <img
+    class="image image--resize image-border"
+    src={"/images/2023-flyer_page3.jpg"}
+    alt="Symposium flyer Program page 2"
     loading="lazy"
   />
 </div>
