@@ -30,7 +30,7 @@ symposium on March 30, 2022.
 
 <div class="pb-4">
   See pdf
-  <a href="/pdfs/OSTEOMET_workshop_26.07.2022_poster.pdf" target="_blank"
+  <a href="/pdfs/MATEGRA_Symposium_2023_flyer_en.pdf" target="_blank"
     >flyer <Icon i={"pdf"} />
   </a>
 </div>
