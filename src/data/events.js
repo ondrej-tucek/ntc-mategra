@@ -1,5 +1,13 @@
 export let events = [
   {
+    id: 12,
+    header: "Symposium 2023",
+    body: 'Innovative surfaces and regeneration of musculoskeletal tissues',
+    footer: "30. 3. 2023",
+    route_to: "/events/osteomet-symposium-2023",
+    body_text: "is-italic is-centered",
+  },
+  {
     id: 11,
     header: "Virtual Symposium 2022",
     body: 'Osteomet Seminar & Workshop',
