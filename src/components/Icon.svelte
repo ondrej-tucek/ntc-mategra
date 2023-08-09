@@ -5,6 +5,7 @@
   import i_phone from "../static/icons/phone.svg?raw";
   import i_envelope from "../static/icons/envelope.svg?raw";
   import i_zoom from "../static/icons/zoom.svg?raw";
+  import i_down_arrow from "../static/icons/down-arrow.svg?raw";
 
   export let i;
   let i_obj = new Object();
@@ -28,6 +29,9 @@
         break;
       case "zoom":
         i_obj = { icon: i_zoom, class: "icon-zoom" };
+        break;
+      case "zoom":
+        i_obj = { icon: i_down_arrow, class: "icon-down-arrow" };
         break;
       default:
         i_obj = { icon: "", class: "" };
