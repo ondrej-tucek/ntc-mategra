@@ -1,5 +1,6 @@
 <script>
   import { events } from "../data/events.js";
+  import Icon from "./Icon.svelte";
   let is_dropdown_open = false;
 
   const handle_dropdown = () => {
@@ -12,7 +13,9 @@
   <a class="navbar-item" href="/mategra">Mategra</a>
   <a class="navbar-item" href="/osteomet">Osteomet</a>
   <a class="navbar-item" href="/group">Group</a>
-  <a class="navbar-item" data-sveltekit-prefetch href="/gallery">Gallery</a>
+  <a class="navbar-item" data-sveltekit-prefetch href="/gallery"
+    >Gallery <Icon i={"down_arrow"} /></a
+  >
   <div
     class="navbar-item dropdown"
     on:click={handle_dropdown}

@@ -30,7 +30,7 @@
       case "zoom":
         i_obj = { icon: i_zoom, class: "icon-zoom" };
         break;
-      case "zoom":
+      case "down_arrow":
         i_obj = { icon: i_down_arrow, class: "icon-down-arrow" };
         break;
       default:
@@ -86,6 +86,12 @@
   }
 
   .icon-zoom {
+    width: 28px;
+    vertical-align: -0.3em;
+  }
+
+  .icon-down-arrow {
+    color: red;
     width: 28px;
     vertical-align: -0.3em;
   }
