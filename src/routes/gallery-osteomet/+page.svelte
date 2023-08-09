@@ -54,7 +54,7 @@
   .flex {
     display: flex;
     flex-wrap: wrap;
-    margin-block: 2rem;
+    /* margin-block: 2rem; */
     /* margin-top: -0.75rem; */
     border: 1px solid lightgray;
     border-radius: 6px;

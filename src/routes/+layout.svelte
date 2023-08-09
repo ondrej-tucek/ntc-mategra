@@ -56,6 +56,9 @@
   }
 
   .content {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
     position: relative;
     scroll-behavior: smooth;
     overflow-y: auto;
