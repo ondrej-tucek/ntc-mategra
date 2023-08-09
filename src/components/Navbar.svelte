@@ -3,36 +3,29 @@
   let is_dropdown_open = false;
 
   const handle_dropdown = () => {
-    is_dropdown_open = !is_dropdown_open
-  }
+    is_dropdown_open = !is_dropdown_open;
+  };
 </script>
 
 <nav class="navbar">
-  <a
-    class="navbar-item"
-    href="/">Mategra</a
+  <a class="navbar-item" href="/">Home</a>
+  <a class="navbar-item" href="/mategra">Mategra</a>
+  <a class="navbar-item" href="/osteomet">Osteomet</a>
+  <a class="navbar-item" href="/group">Group</a>
+  <a class="navbar-item" data-sveltekit-prefetch href="/gallery">Gallery</a>
+  <div
+    class="navbar-item dropdown"
+    on:click={handle_dropdown}
+    role="button"
+    tabIndex="0"
   >
-  <a
-    class="navbar-item"
-    href="/about">About</a
-  >
-  <a
-    class="navbar-item"
-    href="/group">Group</a
-  >
-  <a
-    class="navbar-item"
-    data-sveltekit-prefetch
-    href="/gallery">Gallery</a
-  >
-  <div class="navbar-item dropdown" on:click={handle_dropdown}>
     Events
-    <div class="dropdown-content" style:visibility={is_dropdown_open ? 'visible' : 'hidden'}>
+    <div
+      class="dropdown-content"
+      style:visibility={is_dropdown_open ? "visible" : "hidden"}
+    >
       {#each events as event}
-        <a
-          class="dropdown-link"
-          rel="prefetch"
-          href={event.route_to}
+        <a class="dropdown-link" rel="prefetch" href={event.route_to}
           >{@html event.header}
         </a>
       {/each}

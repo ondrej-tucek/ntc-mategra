@@ -1,5 +1,5 @@
 <script>
-	import Icon from "../../components/Icon.svelte";
+  import Icon from "../../components/Icon.svelte";
 </script>
 
 <div class="is-justify pb-4">
@@ -17,7 +17,7 @@
   research institutions and professional groups, as well as the transfer of
   knowledge about the development and testing of new porous biomaterials. The <a
     class="link ukr_link"
-    href="https://www.ukr.de/e/departments/trauma-surgery/Laboratory_for_Experimental_Trauma_Surgery/index.php"
+    href="https://www.ukr.de/en/trauma-surgery"
     target="_blank">Trauma Surgery of the University Hospital Regensburg</a
   >
   (UKR) and the
