@@ -4,17 +4,19 @@
   import Navbar from "../components/Navbar.svelte";
   import Events from "../components/EventsList.svelte";
   import Logos from "../components/Logos.svelte";
-  import { page } from '$app/stores';
+  import { page } from "$app/stores";
 </script>
 
 <svelte:head>
-  <title>Mategra</title>
+  <title>Mategra & Osteomet</title>
 </svelte:head>
 <section class="grid-wrap">
   <div class="grid">
     <div class="main box">
       <Navbar />
-      <div class={$page.url.pathname === "/" ? "mategra-home" : "content scroll"}>
+      <div
+        class={$page.url.pathname === "/" ? "mategra-home" : "content scroll"}
+      >
         <slot />
       </div>
     </div>
@@ -67,7 +69,7 @@
   @media only screen and (max-width: 600px) {
     .content {
       height: 100%;
-      padding: 1rem
+      padding: 1rem;
     }
 
     .grid-wrap {

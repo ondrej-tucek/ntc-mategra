@@ -1,5 +1,5 @@
 <script>
-  import { images } from "../data/mategra_images.js";
+  import { images } from "../data/home_images.js";
 </script>
 
 <div class="project-info is-centered py-4">
@@ -8,8 +8,8 @@
     Augmented treatment of osteoporotic bone with innovative organic-inorganic
     nanoparticle functionalized metal surfaces
   </div>
-    Project 349: OSTEOMET<br>
-    &
+  Project 349: OSTEOMET<br />
+  &
   <div class="mategra-title is-italic py-0">
     Advanced porous biomaterials functionalized with stem cells for enhanced
     implant osseointegration
@@ -116,7 +116,7 @@
       transform: scale(1.2);
       opacity: 0;
     }
-    75%{
+    75% {
       transform: scale(1);
       opacity: 0;
     }
@@ -136,7 +136,7 @@
       transform: scale(1.2);
       opacity: 0;
     }
-    75%{
+    75% {
       transform: scale(1);
       opacity: 0;
     }
@@ -156,7 +156,7 @@
       transform: scale(1.2);
       opacity: 0;
     }
-    75%{
+    75% {
       transform: scale(1);
       opacity: 0;
     }
@@ -176,7 +176,7 @@
       transform: scale(1.2);
       opacity: 0;
     }
-    75%{
+    75% {
       transform: scale(1);
       opacity: 0;
     }
@@ -238,7 +238,7 @@
     45% {
       opacity: 0;
     }
-    75%{
+    75% {
       opacity: 0;
     }
   }
@@ -256,7 +256,7 @@
     45% {
       opacity: 0;
     }
-    75%{
+    75% {
       opacity: 0;
     }
   }
@@ -274,7 +274,7 @@
     45% {
       opacity: 0;
     }
-    75%{
+    75% {
       opacity: 0;
     }
   }
@@ -292,7 +292,7 @@
     45% {
       opacity: 0;
     }
-    75%{
+    75% {
       opacity: 0;
     }
   }

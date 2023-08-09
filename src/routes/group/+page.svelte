@@ -3,6 +3,9 @@
   import { scientists } from "../../data/scientists.js";
 </script>
 
+<svelte:head>
+  <title>Mategra & Osteomet</title>
+</svelte:head>
 <div class="is-justify pb-4">
   The project requires the cooperation between the two institutions, as it
   creates an ideal combination of knowledge from the research fields of

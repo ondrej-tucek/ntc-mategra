@@ -59,6 +59,12 @@
   .dropdown-group {
     position: relative;
     display: inline-block;
+    color: var(--clr-ukr);
+  }
+
+  .dropdown-group:hover .navbar-item {
+    color: white;
+    background-color: var(--clr-ukr);
   }
 
   .dropdown-list {

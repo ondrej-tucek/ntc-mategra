@@ -2,6 +2,9 @@
   import Icon from "../../components/Icon.svelte";
 </script>
 
+<svelte:head>
+  <title>Osteomet</title>
+</svelte:head>
 <div class="is-justify pb-4">
   The OSTEOMET project addresses an important and highly translational topic:
   the clinically relevant disease field of osteoporosis. Osteoporosis is a

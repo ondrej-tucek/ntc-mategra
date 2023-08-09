@@ -1,36 +1,72 @@
+
 const toImage = (file) => {
-  return ["/images", file].join("/");
+  return ["/images/gallery/mategra", file].join("/");
 };
 
-export let images = [
+export let mategra_images = [
   {
-    id: 1,
-    path: toImage("i_01.jpg"),
-    label: "Laser textured titanium substrate",
+    label: "Laser textured titanium substrates: Advanced bioactive nano/-micro topography",
+    images: [
+      {
+        id: 1,
+        path: toImage("gm_01.jpg")
+      },
+      {
+        id: 2,
+        path: toImage("gm_02.jpg")
+      },
+      {
+        id: 3,
+        path: toImage("gm_03.jpg")
+      },
+    ]
   },
   {
-    id: 2,
-    path: toImage("i_02.jpg"),
-    label: "Silica-titania porous bioglass",
+    label: "Novel perspectives of pulsed laser ablation: Bioactive nanoparticles",
+    images: [
+      {
+        id: 1,
+        path: toImage("gm_04.jpg")
+      },
+      {
+        id: 2,
+        path: toImage("gm_05.jpg")
+      },
+      {
+        id: 3,
+        path: toImage("gm_06.jpg")
+      },
+      {
+        id: 4,
+        path: toImage("gm_07.jpg")
+      },
+    ]
   },
   {
-    id: 3,
-    path: toImage("i_03.jpg"),
-    label: "CaTiO<sub>3</sub> porous coating",
+    label: "Filling the pores with multi-level porous bioglass in order to improve the long-term stimulation of bone-implant interface",
+    images: [
+      {
+        id: 1,
+        path: toImage("gm_08.jpg")
+      }
+    ]
   },
   {
-    id: 4,
-    path: toImage("i_04.jpg"),
-    label: "Human mesenchymal stem cells",
+    label: "Synthesis pathway: Multifunctional sol-gel glasses",
+    images: [
+      {
+        id: 1,
+        path: toImage("gm_09.jpg")
+      }
+    ]
   },
   {
-    id: 5,
-    path: toImage("i_05.jpg"),
-    label: "hMSCs from aged osteoporotic donors",
+    label: "μCT scans showing open interconnected pore structure driven by TiO2 incorporation",
+    images: [
+      {
+        id: 1,
+        path: toImage("gm_10.jpg")
+      }
+    ]
   },
-  {
-    id: 5,
-    path: toImage("i_06.jpg"),
-    label: "µ-CT scans of macroporous silica-phosphate bioglass",
-  }
 ];

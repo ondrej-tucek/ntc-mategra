@@ -2,6 +2,9 @@
   import Icon from "../../components/Icon.svelte";
 </script>
 
+<svelte:head>
+  <title>Mategra</title>
+</svelte:head>
 <div class="is-justify pb-4">
   The MATEGRA project focuses on the development, optimization and testing of
   new types of biocompatible surfaces of titanium implants for improved
