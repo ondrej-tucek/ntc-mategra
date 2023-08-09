@@ -237,6 +237,6 @@
   }
 
   .icon-down-arrow {
-    width: 1em;
+    width: 0.65em;
   }
 </style>
