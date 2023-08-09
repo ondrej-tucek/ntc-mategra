@@ -91,8 +91,18 @@
   }
 
   .icon-down-arrow {
-    color: red;
-    width: 28px;
-    vertical-align: -0.3em;
+    color: white;
+    width: 18px;
+    /* vertical-align: -0.3em; */
+  }
+
+  @media only screen and (min-width: 901px) {
+    .icon-down-arrow {
+      color: var(--clr-ukr);
+    }
+
+    .icon-down-arrow:hover {
+      color: white;
+    }
   }
 </style>

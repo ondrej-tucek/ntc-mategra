@@ -9,13 +9,32 @@
 </script>
 
 <nav class="navbar">
-  <a class="navbar-item" href="/">Home</a>
+  <a class="navbar-item navbar-item-first" href="/">Home</a>
   <a class="navbar-item" href="/mategra">Mategra</a>
   <a class="navbar-item" href="/osteomet">Osteomet</a>
   <a class="navbar-item" href="/group">Group</a>
-  <a class="navbar-item" data-sveltekit-prefetch href="/gallery"
-    >Gallery <Icon i={"down_arrow"} /></a
-  >
+  <div class="dropdown-group">
+    <div class="navbar-item flex">
+      Gallery
+      <svg
+        class="icon-down-arrow"
+        viewBox="0 0 32 32"
+        aria-hidden="true"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:svg="http://www.w3.org/2000/svg"
+        ><path
+          fill="currentColor"
+          d="M 31.330632,7.8284201 C 30.771554,7.2693419 29.864926,7.2692464 29.305753,7.8285156 L 16.000339,21.134216 2.6942578,7.8284201 C 2.1351804,7.2693419 1.2285527,7.2692464 0.66937977,7.8285156 c -0.55917296,0.5591738 -0.55917296,1.4657048 0,2.0248788 L 14.987948,24.17158 c 0.268514,0.268514 0.632674,0.419332 1.012391,0.419332 0.379719,0 0.743974,-0.150913 1.012392,-0.419427 L 31.330537,9.8532984 c 0.559268,-0.559078 0.559268,-1.465705 9.5e-5,-2.0248783 z"
+          style="stroke-width:1"
+        /></svg
+      >
+    </div>
+    <div class="dropdown-list">
+      <a data-sveltekit-prefetch href="/gallery-mategra">Mategra</a>
+      <a data-sveltekit-prefetch href="/gallery-osteomet">Osteomet</a>
+    </div>
+  </div>
   <div
     class="navbar-item dropdown"
     on:click={handle_dropdown}
@@ -37,6 +56,43 @@
 </nav>
 
 <style>
+  .dropdown-group {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /* min-width: 160px; */
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-list a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown-group:hover .dropdown-list {
+    display: block;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.25em;
+  }
+
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -64,11 +120,11 @@
     background-color: var(--clr-ukr);
   }
 
-  .navbar-item:first-child {
+  .navbar-item-first {
     color: var(--clr-ntc);
   }
 
-  .navbar-item:first-child:hover {
+  .navbar-item-first:hover {
     color: white;
     background-color: var(--clr-ntc);
   }
@@ -101,7 +157,7 @@
       width: 100%;
     }
 
-    .navbar-item:first-child {
+    .navbar-item-first {
       color: #fff;
       background-color: var(--clr-ntc);
     }
@@ -119,8 +175,13 @@
       border: 2px solid var(--clr-ukr);
     }
 
-    .navbar-item:first-child {
+    .navbar-item-first {
       border: 2px solid var(--clr-ntc);
+    }
+
+    .icon-down-arrow {
+      position: relative;
+      top: 0.2rem;
     }
   }
 
@@ -167,5 +228,9 @@
 
   .dropdown-link:last-child {
     border-bottom: 0;
+  }
+
+  .icon-down-arrow {
+    width: 1em;
   }
 </style>
