@@ -1,7 +1,7 @@
 export let events = [
   {
     id: 12,
-    header: "Symposium 2023",
+    header: "Osteomet: Symposium 2023",
     body: 'Innovative surfaces and regeneration of musculoskeletal tissues',
     footer: "30. 3. 2023",
     route_to: "/events/osteomet-symposium-2023",
@@ -9,15 +9,15 @@ export let events = [
   },
   {
     id: 11,
-    header: "Virtual Symposium 2022",
-    body: 'Osteomet Seminar & Workshop',
+    header: "Osteomet: Virtual Symposium 2022",
+    body: 'Seminar & Workshop',
     footer: "26. 7. 2022",
     route_to: "/events/osteomet-seminar-and-workshop",
     body_text: "is-italic is-centered",
   },
   {
     id: 10,
-    header: "Virtual Symposium 2021",
+    header: "Mategra: Virtual Symposium 2021",
     body: 'Advancing the Interface: </br> Biomaterials and regenerative cells',
     footer: "11. 11. 2021",
     route_to: "/events/biomaterials-and-regenerative-cells",
