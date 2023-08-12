@@ -36,7 +36,6 @@
   }
 
   .project-info {
-    width: 100%;
     font-size: var(--fs-5);
     position: absolute;
     z-index: 100;
@@ -197,7 +196,7 @@
     -o-animation: fadeInOutText 30s infinite;
     animation: fadeInOutText 35s infinite;
     opacity: 0;
-    right: 0;
+    right: 1rem;
     bottom: 5vh;
   }
 
@@ -302,6 +301,7 @@
       grid-area: info;
       position: relative;
       border-radius: 0;
+      width: 100%;
     }
 
     .slider {
@@ -311,6 +311,12 @@
 
     .slider-text > p {
       bottom: 2rem;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    .project-info {
+      width: calc(100% - 2rem);
     }
   }
 </style>

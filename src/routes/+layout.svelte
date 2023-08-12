@@ -46,12 +46,16 @@
     grid-area: main;
     padding: 2rem;
     width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 1.75rem;
     height: calc(100vh - 8vh);
     /* background: lightpink; */
   }
 
   .mategra-home {
     position: relative;
+    padding-inline: 1rem;
     height: calc(100vh - 8vh - 8.6rem);
   }
 
@@ -64,7 +68,7 @@
     overflow-y: auto;
     overflow-x: hidden;
     width: 100%;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 0.8rem 1rem 1rem;
     height: calc(100vh - 8vh - 8.6rem);
     /* background: paleturquoise; */
   }
@@ -121,6 +125,10 @@
         "main"
         "logos";
       grid-gap: 1rem;
+    }
+
+    .mategra-home {
+      padding-inline: 0;
     }
   }
 

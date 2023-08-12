@@ -100,11 +100,11 @@
   }
 
   .navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    margin-bottom: 1.75rem;
+    gap: 1rem;
     background-color: white;
     /* padding: 0.5rem 0; */
     padding: 0 1rem;
